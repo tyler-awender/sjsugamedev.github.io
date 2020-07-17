@@ -50,6 +50,7 @@
 .yellow {
 	color: #fbc000;	
 	/*color: #eab421;*/
+	/*color: #fee601;*/
 }
 
 /*Body of Event page*/
@@ -69,26 +70,12 @@
 	margin-bottom: 4em;
 	/*background-color: rgba(234,180,33,0.5);*/
 	/*background-color: rgba(67,93,233,1);*/
+	background-color: rgba(248,240,198,0.6);
 }
 
 .body h3 {
 	margin-bottom: 0;
 	color: #435de9;
-}
-
-.body .col-sm-8 {
-	height: 240px;
-	overflow-y: auto;
-}
-
-.col-sm-8::-webkit-scrollbar {
-	width: 5px;
-	height: 8px;
-	background-color: #aaa; 
-}
-
-.col-sm-8::-webkit-scrollbar-thumb {
-    background: #000; 
 }
 
 .body p {
@@ -113,6 +100,10 @@
 	color: white;
 	margin-top: 5px;
 	margin-bottom: auto;
+}
+
+.end-text a {
+	color: #fee601;
 }
 
 .end-media {

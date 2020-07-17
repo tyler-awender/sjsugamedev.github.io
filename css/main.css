@@ -76,12 +76,17 @@ h1 {
 	padding: 0px 20px 20px;
 }
 
+del {
+	text-decoration-color: red;
+}
+
 /*Body of Index Page*/
 .body{
-	background-image: url(https://st2.depositphotos.com/2155057/6799/v/950/depositphotos_67996213-stock-illustration-abstract-blue-pixel-background.jpg);
-	background-size: 30% auto;
-	background-position: 50% 70%;
-	/*border-top: solid #435de9;*/
+	background-color: #F8F0C6;
+	background-image: url(../img/placeholder.png), url(../img/placeholder.png);
+	background-repeat: repeat-x, repeat-y;
+	background-size: 5% auto;
+	background-position: 93% 101%;
 }
 
 /*To all divs that are children of .body*/
@@ -91,23 +96,37 @@ h1 {
 	/*border-right: solid gold;*/
 }
 
+.body .row {
+	background-color: rgba(255,255,255,0.6);
+}
+
+.body .image-side{
+	background-color: #F8F0C6;
+}
+
 .center-image {
-	display: block;
-	margin: auto;
+	/*display: block;*/
+	/*margin: auto;*/
+	float: right;
 }
 
 .col-sm-6 {
 	padding: 0;
-	
+}
+
+.body-text {
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .body h3 {
+	margin-top: 10px;
 	margin-bottom: 0em;
 }
 
 .body p {
-	font-size: 16px;
-	padding: 1em 0em;
+	font-size: 18px;
+	padding-top: 1em;
 	color: #17256a;
 }
 
@@ -122,6 +141,10 @@ h1 {
 	color: white;
 	margin-top: 5px;
 	margin-bottom: auto;
+}
+
+.end-text a {
+	color: #fee601;
 }
 
 .end-media {

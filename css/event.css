@@ -106,6 +106,10 @@
 	color: #fee601;
 }
 
+.end-text a:hover {
+	color: red;
+}
+
 .end-media {
 	text-align: center;
 }

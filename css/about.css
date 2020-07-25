@@ -96,7 +96,7 @@
 
 /*Body of About Page*/
 .body {
-	background-image: url(../img/placeholder.png), url(../img/placeholder.png);
+	background-image: url(../img/logo_icon.png), url(../img/logo_icon.png);
 	background-repeat: repeat-x, repeat-y;
 	background-color: #222222;
 	background-size: 5% auto;

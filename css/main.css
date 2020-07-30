@@ -82,7 +82,7 @@ del {
 
 /*Body of Index Page*/
 .body{
-	background-color: #FF7F50;
+	background-color: #222222;
 	background-image: url(../img/logo_icon.png), url(../img/logo_icon.png);
 	background-repeat: repeat-x, repeat-y;
 	background-size: 5% auto;
@@ -96,20 +96,12 @@ del {
 	/*border-right: solid gold;*/
 }
 
-.body .row {
-	background-color: rgba(255,255,255,0.6);
-}
-
-.body .image-side{
-	background-color: #FF7F50;
-}
-
 /*If the screen is 600px or wider do this*/
 @media screen and (min-width: 600px) {
 	.center-image {
 		/*display: block;*/
 		/*margin: auto;*/
-		float: right;
+		/*float: right;*/
 	}
 }
 
@@ -119,24 +111,39 @@ del {
 	/*float: right;*/
 }
 
+.body .row {
+	background-color: rgba(254,229,0,0.6);
+	padding: 50px 0;
+}
+
 .col-sm-6 {
 	padding: 0;
 }
 
 .body-text {
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 0px;
+	margin-right: 50px;
 }
 
 .body h3 {
-	margin-top: 10px;
-	margin-bottom: 0em;
+	margin-top: 0;
+	margin-bottom: 0;
+	/*color: #fee500;*/
+	color: #435de9;
 }
 
 .body p {
 	font-size: 18px;
 	padding-top: 1em;
-	color: #17256a;
+	color: rgb(240,240,240);
+}
+
+.body-text a {
+	color: #435de9;
+}
+
+.body-text a:hover {
+	color: red;
 }
 
 /*End of Index Page*/

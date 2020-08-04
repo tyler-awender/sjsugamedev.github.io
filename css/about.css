@@ -74,7 +74,7 @@
 }
 
 .location img {
-	width: 400px;
+	width: auto;
 	height: 400px;
 }
 
@@ -92,6 +92,22 @@
 .location del {
 	text-decoration: line-through;
 	text-decoration-color: red;
+}
+
+/*Code of Code of About Page*/
+.code_of_conduct {
+	margin-bottom: 10em;
+}
+
+.code_of_conduct object{
+	width: 900px;
+	height: 1000px;
+	border: solid #222222;
+}
+
+.constitution {
+	color: #435de9;
+	border-bottom: solid #222222;
 }
 
 /*Body of About Page*/
@@ -174,4 +190,27 @@
 
 .end-media {
 	text-align: center;
+}
+
+/*When the browser window is 600px wide or less, do this*/
+@media only screen and (max-width: 900px) {
+	.location img {
+		width: 350px;
+		height: auto;
+	}
+
+	.code_of_conduct object{
+		width: 340px;
+		height: 500px;
+		border: solid #222222;
+	}
+
+	.body .row {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	.body .col-sm-4{
+		margin-bottom: 5em;
+	}
 }

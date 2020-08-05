@@ -103,7 +103,7 @@ del {
 }
 
 .body .row {
-	background-color: rgba(254,229,0,0.6);
+	background-color: rgba(45,168,216,0.5);
 	padding: 50px 0;
 }
 
@@ -120,7 +120,8 @@ del {
 	margin-top: 0;
 	margin-bottom: 0;
 	/*color: #fee500;*/
-	color: #435de9;
+	/*color: #435de9;*/
+	color: #2DA8D8;
 }
 
 .body p {
@@ -130,7 +131,7 @@ del {
 }
 
 .body-text a {
-	color: #435de9;
+	color: #2DA8D8;
 }
 
 .body-text a:hover {

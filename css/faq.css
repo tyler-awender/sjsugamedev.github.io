@@ -27,16 +27,6 @@ html {
     /*color: black;*/
 }
 
-.affix {
-	top: 0;
-	width: 100%;
-	z-index: 9999 !important;
-}
-
-.affix + .container-fluid {
-	padding-top: 70px;
-}
-
 .btn-default {
     background-color: #222222;
     border-color: #222222;
@@ -143,9 +133,9 @@ html {
 /*When the browser window is 600px wide or less, do this*/
 @media only screen and (max-width: 600px) {
 	.anchor {
-    display: block;
-    position: relative;
-    top: -650px;
-    visibility: hidden;
-}
+	    display: block;
+	    position: relative;
+	    top: -250px;
+	    visibility: hidden;
+	}
 }

@@ -96,7 +96,11 @@
 	border-width: 5px;
 }
 
-.constitution:hover {
+.code_of_conduct h2 {
+	/*text-decoration: underline;*/
+}
+
+.code_of_conduct a:hover {
 	font-style: italic;
 }
 

@@ -6,17 +6,14 @@ html {
 	margin-bottom: 0em;
 	padding-top: 0em;
 	padding-bottom: 0em;
-	/*background-color: #222222;*/
-	/*background-color: black;*/
 	background-image: url(../img/sjsu.jpg);
-	background-position: 50% 15%;
+	background-position: 50% 30%;
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 }
 
-.jumbotron > .navbar {
+.navbar {
 	background-color: rgba(34, 34, 34, 0.5);
-	/*border-color: #222222;*/
 	border-color: rgba(34, 34, 34, 0.5);
     border-radius: 0px;
     margin-bottom: 5em;
@@ -24,7 +21,6 @@ html {
 
 .navbar-inverse .navbar-nav>li>a {
     color: #fbc000;
-    /*color: black;*/
 }
 
 .btn-default {
@@ -35,6 +31,10 @@ html {
 
 .navbar-brand {
 	padding: 0px;
+}
+
+.navbar-brand img {
+	width: 180px;
 }
 
 .blue {
@@ -132,10 +132,30 @@ html {
 
 /*When the browser window is 600px wide or less, do this*/
 @media only screen and (max-width: 600px) {
+	.jumbotron .container{
+		visibility: hidden;
+	}
+
+	.jumbotron {
+		background-size: 150% auto;
+	}
+
+	.btn-default {
+	    background-color: rgba(0,0,0,0);
+	    border-color: #222222;
+	    text-align: right; 
+	}
+
 	.anchor {
 	    display: block;
 	    position: relative;
 	    top: -250px;
 	    visibility: hidden;
 	}
+}
+
+@media only screen and (max-width: 767px) {
+	.navbar-brand img {
+		width: 130px;
+	}	
 }

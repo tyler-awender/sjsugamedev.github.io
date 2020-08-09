@@ -2,17 +2,14 @@
 	margin-bottom: 0em;
 	padding-top: 0em;
 	padding-bottom: 0em;
-	/*background-color: #222222;*/
-	/*background-color: black;*/
 	background-image: url(../img/about_page.png);
 	background-position: 50% 15%;
 	background-repeat: no-repeat;
 	background-size: 100% auto;
 }
 
-.jumbotron > .navbar {
+.navbar {
 	background-color: rgba(34, 34, 34, 0.5);
-	/*border-color: #222222;*/
 	border-color: rgba(34, 34, 34, 0.5);
     border-radius: 0px;
     margin-bottom: 5em;
@@ -31,6 +28,10 @@
 
 .navbar-brand {
 	padding: 0px;
+}
+
+.navbar-brand img {
+	width: 180px;
 }
 
 /*Intro of About Page*/
@@ -85,20 +86,20 @@
 }
 
 /*Code of Code of About Page*/
-.code_of_conduct {
-	margin-bottom: 10em;
-}
-
-.code_of_conduct object{
-	width: 900px;
-	height: 1000px;
-	border: solid #222222;
-}
-
-.constitution {
+.code_of_conduct div {
 	color: #435de9;
-	border-bottom: solid #222222;
+	width: 50%;
+	margin: auto;
+	padding: 0;
+	border-left: solid #eab421;
+	border-right: solid #eab421;
+	border-width: 5px;
 }
+
+.constitution:hover {
+	font-style: italic;
+}
+
 
 /*Body of About Page*/
 .body {
@@ -189,7 +190,7 @@
 		height: auto;
 	}
 
-	.code_of_conduct object{
+	.code_of_conduct iframe{
 		width: 340px;
 		height: 500px;
 		border: solid #222222;
@@ -203,4 +204,31 @@
 	.body .col-sm-4{
 		margin-bottom: 5em;
 	}
+}
+
+/*When the browser window is 600px wide or less, do this*/
+@media only screen and (max-width: 600px) {
+	.jumbotron .container{
+		visibility: hidden;
+	}
+
+	.jumbotron {
+		background-size: 150% auto;
+	}
+
+	.btn-default {
+	    background-color: rgba(0,0,0,0);
+	    border-color: #222222;
+	    text-align: right; 
+	}
+
+	.code_of_conduct div {
+		width: 65%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.navbar-brand img {
+		width: 130px;
+	}	
 }

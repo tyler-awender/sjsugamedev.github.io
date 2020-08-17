@@ -3,9 +3,9 @@
 	padding-top: 0em;
 	padding-bottom: 0em;
 	background-image: url(../img/web_banner_bg.png);
-	background-position: 50% 30%;
+	background-position: 50% 10%;
 	background-repeat: no-repeat;
-	background-size: auto 100%;
+	background-size: auto 110%;
 }
 
 .navbar {
@@ -101,7 +101,7 @@ del {
 	padding: 50px 0;
 }
 
-.col-sm-6 {
+.body .col-sm-6 {
 	padding: 0;
 }
 

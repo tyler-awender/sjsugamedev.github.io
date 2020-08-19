@@ -83,53 +83,63 @@ del {
 	background-position: 93% 101%;
 }
 
-/*To all divs that are children of .body*/
-.body > div {
+.vid {
 	margin-top: 5em;
 	margin-bottom: 5em;
-	/*border-right: solid gold;*/
+	text-align: center;
+
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
 }
 
-.center-image {
-	display: block;
-	margin: auto;
-	/*float: right;*/
+.vid iframe {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+.body .event {
+	margin-bottom: 8em;
 }
 
 .body .row {
-	background-color: rgba(45,168,216,0.5);
-	padding: 50px 0;
+	border: solid #fbc000;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 50px;
 }
 
-.body .col-sm-6 {
-	padding: 0;
-}
-
-.body-text {
-	margin-left: 0px;
-	margin-right: 50px;
-}
-
-.body h3 {
-	margin-top: 0;
-	margin-bottom: 0;
-	/*color: #fee500;*/
-	/*color: #435de9;*/
+.text-side h1 {
+	margin: 5px 0px;
 	color: #2DA8D8;
 }
 
 .body p {
-	font-size: 18px;
-	padding-top: 1em;
+	font-size: 20px;
 	color: rgb(240,240,240);
 }
 
-.body-text a {
+.body span {
+	font-size: 20px;
+	color: #fbc000;
+	font-weight: bold;
+}
+
+.body span b {
 	color: #2DA8D8;
 }
 
-.body-text a:hover {
-	color: black;
+.body span a {
+	text-decoration: underline;
+}
+
+.body span a:hover {
+	text-decoration: none;
+	font-style: italic;
 }
 
 /*End of Index Page*/
@@ -174,8 +184,16 @@ del {
 	    text-align: right; 
 	}
 
-	.body-text {
-		margin: 1em 2em 0;
+	.text-side h1 {
+		font-size: 30px;
+	}
+
+	.body p {
+		font-size: 16px;
+	}
+
+	.body span {
+		font-size: 16px;
 	}
 }
 

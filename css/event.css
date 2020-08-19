@@ -40,13 +40,28 @@
 
 .yellow {
 	color: #fbc000;	
-	/*color: #eab421;*/
-	/*color: #fee601;*/
 }
 
 /*Body of Event page*/
-.body .container {
-	margin-bottom: 5em;
+.body .calendar {
+	text-align: center;
+
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+}
+
+.calendar iframe {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+.body .event {
+	margin-bottom: 8em;
 }
 
 .body h2 {
@@ -56,11 +71,47 @@
 }
 
 .body .row {
+	border: solid #fbc000;
+	background-color: #222222;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	padding: 50px;
+}
+
+.text-side h1 {
+	margin: 5px 0px;
+	color: #2DA8D8;
+}
+
+.body p {
+	font-size: 20px;
+	color: rgb(240,240,240);
+}
+
+.body span {
+	font-size: 20px;
+	color: #fbc000;
+	font-weight: bold;
+}
+
+.body span b {
+	color: #2DA8D8;
+}
+
+.body span a {
+	text-decoration: underline;
+}
+
+.body span a:hover {
+	text-decoration: none;
+	font-style: italic;
+}
+
+/*For Carousell*/
+/*.body .row {
 	padding: 1em;
 	margin-top: 4em;
 	margin-bottom: 4em;
-	/*background-color: rgba(234,180,33,0.5);*/
-	/*background-color: rgba(67,93,233,1);*/
 	background-color: rgba(248,240,198,0.6);
 }
 
@@ -78,7 +129,7 @@
 .body .col-sm-4 {
 	height: 240px;
 	max-height: auto;
-}
+}*/
 
 /*End of Event Page*/
 .end {
@@ -119,6 +170,18 @@
 	    background-color: rgba(0,0,0,0);
 	    border-color: #222222;
 	    text-align: right; 
+	}
+
+	.text-side h1 {
+		font-size: 30px;
+	}
+
+	.body p {
+		font-size: 16px;
+	}
+
+	.body span {
+		font-size: 16px;
 	}
 }
 

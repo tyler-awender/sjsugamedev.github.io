@@ -64,12 +64,6 @@
 	margin-bottom: 8em;
 }
 
-.body h2 {
-	text-align: center;
-	color: #435de9;
-	border-bottom: solid #eab421;
-}
-
 .body .row {
 	border: solid #fbc000;
 	background-color: #222222;
@@ -78,9 +72,23 @@
 	padding: 50px;
 }
 
-.text-side h1 {
-	margin: 5px 0px;
+.image-side img {
+	width: 90%;
+	height: auto;
+}
+
+.text-side h3 {
+	margin:5px 0;
+	text-decoration: underline;
 	color: #2DA8D8;
+	font-weight: bold;
+}
+
+.text-side h2 {
+	margin-top: 15px;
+	margin-bottom: 0;
+	color: #fbc000;
+	font-weight: bold;
 }
 
 .body p {

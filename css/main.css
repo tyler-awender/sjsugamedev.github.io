@@ -49,13 +49,6 @@
 	/*background-color: #17256a;*/
 }
 
-h1 {
-	font-weight: bold;
-	margin-bottom: 2em;
-	/*color: #eab421;*/
-	color: #435de9;
-}
-
 .blue {
 	color: #435de9;
 }
@@ -113,9 +106,23 @@ del {
 	padding: 50px;
 }
 
-.text-side h1 {
-	margin: 5px 0px;
+.image-side img {
+	width: 90%;
+	height: auto;
+}
+
+.text-side h3 {
+	margin:5px 0;
+	text-decoration: underline;
 	color: #2DA8D8;
+	font-weight: bold;
+}
+
+.text-side h2 {
+	margin-top: 15px;
+	margin-bottom: 0;
+	color: #fbc000;
+	font-weight: bold;
 }
 
 .body p {

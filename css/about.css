@@ -187,7 +187,7 @@
 	text-align: center;
 }
 
-/*When the browser window is 600px wide or less, do this*/
+/*When the browser window is 900px wide or less, do this*/
 @media only screen and (max-width: 900px) {
 	.location img {
 		width: 350px;

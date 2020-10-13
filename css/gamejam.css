@@ -1,4 +1,4 @@
-.jumbotron {
+.jumbotron.main {
 	margin-bottom: 0em;
 	padding-top: 0em;
 	padding-bottom: 0em;
@@ -148,6 +148,11 @@
 	/*background-color: #fee601;*/
 }
 
+.answers h2 {
+	color: #435de9;
+	margin-bottom: 5px;
+}
+
 .officer_text h3 {
 	/*background-color: rgba(0,0,0,0.4);*/
 	margin-top: 5px;
@@ -160,6 +165,11 @@
 	line-height: 20px;
 	/*color: #222222;*/
 	color: white;
+}
+
+li
+{
+	font-size: large;
 }
 
 /*End of About Page*/

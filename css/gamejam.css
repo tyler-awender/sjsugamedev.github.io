@@ -197,6 +197,25 @@ li
 	text-align: center;
 }
 
+/* lists */
+
+li
+{
+	margin-bottom: 10px;
+}
+
+/* Images */
+
+.pageimage
+{
+	display: block;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 /*When the browser window is 900px wide or less, do this*/
 @media only screen and (max-width: 900px) {
 	.location img {

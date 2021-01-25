@@ -113,7 +113,7 @@ del {
 
 .text-side h3 {
 	margin:5px 0;
-	text-decoration: underline;
+	/* text-decoration: underline; */
 	color: #2DA8D8;
 	font-weight: bold;
 }

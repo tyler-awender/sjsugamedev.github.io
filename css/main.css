@@ -149,6 +149,55 @@ del {
 	font-style: italic;
 }
 
+/*Feature Games Section */
+.featured-title {
+	text-align: center;
+	/*padding: 25px 0px;*/
+}
+.featured-title h3 {
+	margin: 5px 10px 15px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #2DA8D8;
+}
+.img-thumbnail{
+	margin: 10px 0px;
+	padding: 0px;
+}
+.card-body {
+	box-shadow: 0 0 20px 7px rgba(0, 0,0, 0);
+	text-align: left;
+}
+.card{
+	margin: 20px 10px;
+}
+
+.col-sm-4 p1 {
+	color: #fbc000;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 10px;
+}
+.col-sm-4 p2 {
+	font-size: 18px;
+	color: white;
+	
+}
+.col-sm-4 a {
+	text-decoration: none;
+}
+.col-sm-4 a:hover {
+	opacity: 0.7;
+}
+.card-body h5 {
+	color: #2DA8D8;
+	font-size: 20px;
+	text-align: center;
+	margin: 15px 15px;
+	font-weight: bold;
+}
+/*Feature Games Section */
+
 /*End of Index Page*/
 .end {
 	background-color: #17256a;

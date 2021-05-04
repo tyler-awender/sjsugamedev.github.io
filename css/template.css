@@ -1,0 +1,43 @@
+.jumbotron {
+	margin-bottom: 0em;
+	padding-top: 0em;
+	padding-bottom: 0em;
+	background-image: url(../img/about_page.png);
+	background-position: 50% 15%;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+    height: 47vh;
+    position: relative;
+}
+
+.navbar-brand {
+	padding: 0px;
+}
+
+.navbar-brand img {
+	width: 180px;
+}
+
+.bg-dark {
+    background-color: rgba(52, 58, 64, 0.5) !important;
+}
+
+.btn-dark {
+    background-color: #222222;
+    border-color: #222222;
+    color: #fbc000;
+    border-radius: 15px;
+}
+
+.btn-dark:hover {
+    background-color: rgba(52, 58, 64, 0.5);
+    border-color: #fff;
+}
+
+.abs-bottom {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+}

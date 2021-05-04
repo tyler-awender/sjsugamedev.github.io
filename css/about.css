@@ -96,9 +96,9 @@
 	border-width: 5px;
 }
 
-.code_of_conduct h2 {
-	/*text-decoration: underline;*/
-}
+/* .code_of_conduct h2 {
+	text-decoration: underline;
+} */
 
 .code_of_conduct a:hover {
 	font-style: italic;
@@ -143,10 +143,10 @@
 	border-radius: 10px;
 }
 
-.officer_text {
-	/*background-color: black;*/
-	/*background-color: #fee601;*/
-}
+/* .officer_text {
+	background-color: black;
+	background-color: #fee601;
+} */
 
 .officer_text h3 {
 	/*background-color: rgba(0,0,0,0.4);*/

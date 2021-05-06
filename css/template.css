@@ -1,3 +1,4 @@
+/* Hero and Navbar */
 .jumbotron {
 	margin-bottom: 0em;
 	padding-top: 0em;
@@ -6,8 +7,6 @@
 	background-position: 50% 15%;
 	background-repeat: no-repeat;
 	background-size: 100% auto;
-    height: 47vh;
-    position: relative;
 }
 
 .navbar-brand {
@@ -25,7 +24,7 @@
 .btn-dark {
     background-color: #222222;
     border-color: #222222;
-    color: #fbc000;
+    color: #fbc000 !important;
     border-radius: 15px;
 }
 
@@ -34,10 +33,93 @@
     border-color: #fff;
 }
 
-.abs-bottom {
+/* .abs-bottom {
     position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
     z-index: 1030;
+} */
+
+/* Body and content */
+.page-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.blue-text {
+    color: #435de9;
+}
+
+p, ul, ol {
+    font-size: 18px;
+    color: #222;
+}
+
+.img-container-center {
+    text-align: center;
+}
+
+.img-container-center img {
+    height: 100%;
+    width: auto;
+    max-height: 400px;
+}
+
+.grey-background {
+    background-color: #f8f9fa;
+}
+
+.page-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+}
+
+.col {
+    margin-top: 24px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.card-link {
+    text-decoration: underline;
+}
+
+/* .img-container-fit {
+    width: 100%;
+} */
+
+.img-fluid {
+    height: auto;
+    max-width: 100%;
+}
+
+/* Footer */
+.end {
+	background-color: #17256a;
+}
+
+.end-text {
+	font-size: 16px;
+	text-align: center;
+	color: white;
+	margin-top: 5px;
+	margin-bottom: auto;
+}
+
+.end-text a {
+	color: #fee601;
+}
+
+.end-text a:hover {
+	color: red;
+}
+
+.end-media {
+	text-align: center;
+    margin: 0;
 }

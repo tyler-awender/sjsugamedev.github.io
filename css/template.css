@@ -72,6 +72,11 @@ p, ul, ol {
     background-color: #f8f9fa;
 }
 
+.sign-up-section {
+    background-color: #eee;
+    padding: 3rem 3.75rem;
+}
+
 .page-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;

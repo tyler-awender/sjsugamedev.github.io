@@ -149,6 +149,13 @@ del {
 	font-style: italic;
 }
 
+/*Summer 2021*/
+.workshop_introductions 
+{
+	font-size: large;
+	color: white;
+}
+
 /*Feature Games Section */
 .featured-title {
 	text-align: center;

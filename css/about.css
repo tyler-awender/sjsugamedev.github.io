@@ -9,7 +9,7 @@
 }
 
 .navbar {
-	background-color: rgba(34, 34, 34, 0.5);
+	background-color: rgba(34, 34, 34, 0.5) !important;
 	border-color: rgba(34, 34, 34, 0.5);
     border-radius: 0px;
     margin-bottom: 5em;
@@ -24,6 +24,18 @@
     background-color: #222222;
     border-color: #222222;
     border-radius: 15px;
+}
+
+.btn-dark {
+    background-color: #222222;
+    border-color: #222222;
+    color: #fbc000 !important;
+    border-radius: 15px;
+}
+
+.btn-dark:hover {
+    background-color: rgba(52, 58, 64, 0.5);
+    border-color: #fff;
 }
 
 .navbar-brand {
@@ -225,6 +237,14 @@
 	    border-color: #222222;
 	    text-align: right; 
 	}
+
+	.btn-dark {
+        text-align: right;
+        padding-right: 15px !important;
+        background-color: rgba(0,0,0,0);
+        /* margin-top: 8px; */
+        margin-bottom: 8px;
+    }
 
 	.code_of_conduct div {
 		width: 65%;

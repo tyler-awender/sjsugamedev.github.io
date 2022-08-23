@@ -11,14 +11,14 @@ import Events from './Events'
 import SummerWorkshop from './SummerWorkshop'
 
 const banners = [
-  {
-    text: <b>SUMMER 2022 WORKSHOP IS LIVE!</b>,
-    cta: <NavLink to='/summer2022'>Read more</NavLink>,
-    styles: {
-      backgroundColor: '#0055a2',
-      color: '#ffffff'
-    }
-  },
+  // {
+  //   text: <b>SUMMER 2022 WORKSHOP IS LIVE!</b>,
+  //   cta: <NavLink to='/summer2022'>Read more</NavLink>,
+  //   styles: {
+  //     backgroundColor: '#0055a2',
+  //     color: '#ffffff'
+  //   }
+  // },
   {
     text: 'Is something missing?',
     cta: <a href='/archive'>Visit the old site</a>

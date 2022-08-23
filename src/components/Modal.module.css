@@ -1,0 +1,61 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 1040;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  /* Center the container in the viewport */
+  position: fixed ;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  background-color: #ffffff;
+  z-index: 1040;
+  border: 0px;
+
+  width: 100%;
+}
+
+.container iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.container.sixteenByNine {
+  padding-bottom: 50%;
+  max-width: 89%;
+}
+
+.container.small {
+  max-width: 1000px;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background-color: #0055a2;
+  color: #ffffff;
+  cursor: pointer;
+  border: 2px solid #ffffff;
+  width: 48px;
+  height: 48px;
+
+  z-index: 1050;
+}
+
+.closeBtn img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

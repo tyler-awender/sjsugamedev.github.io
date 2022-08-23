@@ -1,0 +1,35 @@
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 16px;
+  width: 320px;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  background-color: #eeeeee;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.position {
+  text-transform: uppercase;
+}
+
+.first-name {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.last-name {
+  font-size: 22px;
+  font-weight: bold;
+}

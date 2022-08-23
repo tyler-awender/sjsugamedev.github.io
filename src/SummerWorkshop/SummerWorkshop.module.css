@@ -1,0 +1,35 @@
+.buttonList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.projectsList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.contactsList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+th {
+  text-align: left;
+  text-transform: uppercase;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}

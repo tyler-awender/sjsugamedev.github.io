@@ -1,0 +1,20 @@
+.container
+{
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  word-spacing: 0.2em;
+  row-gap: 16px;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+.controls a {
+  font-size: 16px;
+  padding: 2px 10px;
+}

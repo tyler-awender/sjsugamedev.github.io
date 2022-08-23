@@ -1,0 +1,26 @@
+.card {
+  display: inline-block;
+  background-color: #0055a2;
+	width: 260px;
+  text-decoration: none;
+}
+
+.img {
+  width: 100%;
+	height: auto;
+  object-fit: cover;
+}
+
+.text {
+  padding: 16px;
+  color: #ffffff;
+}
+
+.title {
+  width: 100%;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 600;
+  word-spacing: 0.2em;
+}

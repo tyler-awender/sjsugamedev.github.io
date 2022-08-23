@@ -1,0 +1,36 @@
+.container
+{
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  min-height: 520px;
+  width: 100%;
+  word-spacing: 0.2em;
+  row-gap: 36px;
+}
+
+.emphasis1
+{
+  font-size: 72px;
+  font-weight: 600;
+}
+
+.emphasis2
+{
+  font-size: 32px;
+  font-weight: 600;
+  color: #0055a2;
+}
+
+.emphasis3
+{
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.buttonList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a08b6995.css",
-    "main.js": "/static/js/main.5a937f35.js",
+    "main.js": "/static/js/main.b2a84c78.js",
     "static/media/josh.png": "/static/media/josh.4cfd3911868bc47e7552.png",
     "static/media/restore.png": "/static/media/restore.f7667a91b602561ba310.png",
     "static/media/tezca.png": "/static/media/tezca.b74d11df965efd935deb.png",
@@ -19,10 +19,10 @@
     "static/media/summergame3.png": "/static/media/summergame3.7a543e459daf717327d9.png",
     "static/media/hermes.png": "/static/media/hermes.4aca8c31b52d7ad3c894.png",
     "static/media/aiden.jpg": "/static/media/aiden.dbbd8d7dff1892de5506.jpg",
-    "static/media/rafael.png": "/static/media/rafael.582ad14f5463eb6e5bff.png",
     "static/media/summergame1.png": "/static/media/summergame1.29fffc211efbb0b2bbd2.png",
     "static/media/summergame4.png": "/static/media/summergame4.dc9998f4bf6304111965.png",
     "static/media/cyber-20s.jpg": "/static/media/cyber-20s.afdb4f3e421edebfd6f8.jpg",
+    "static/media/rafael.png": "/static/media/rafael.b78ea44607abd13bb440.png",
     "static/media/logo.png": "/static/media/logo.d0f0b317623147c17f62.png",
     "static/media/welcome.png": "/static/media/welcome.19e996b4d89b95f14fe6.png",
     "static/media/break.png": "/static/media/break.f9959127dde4231ac816.png",
@@ -42,10 +42,10 @@
     "static/media/chevron-up.svg": "/static/media/chevron-up.21ead3be1dbf588b9fb74874b00dd155.svg",
     "static/media/geo-alt-fill.svg": "/static/media/geo-alt-fill.94c6a40d70da7b868b3ef5f3020a41d5.svg",
     "main.a08b6995.css.map": "/static/css/main.a08b6995.css.map",
-    "main.5a937f35.js.map": "/static/js/main.5a937f35.js.map"
+    "main.b2a84c78.js.map": "/static/js/main.b2a84c78.js.map"
   },
   "entrypoints": [
     "static/css/main.a08b6995.css",
-    "static/js/main.5a937f35.js"
+    "static/js/main.b2a84c78.js"
   ]
 }

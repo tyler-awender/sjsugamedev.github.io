@@ -25,7 +25,7 @@
     "eject": "react-scripts eject",
     "lint": "standard --fix",
     "predeploy": "npm run build",
-    "deploy": "echo 'SJSUGAMEDEV.COM' > ./build/CNAME && gh-pages -d build"
+    "deploy": "echo SJSUGAMEDEV.COM > ./build/CNAME && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

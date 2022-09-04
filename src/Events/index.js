@@ -16,17 +16,9 @@ const EVENT_STYLE = {
 
 const events = [
   {
-    name: 'Intro Meeting + Showcase',
-    date: 'Sept. 1st',
-    time: '7:30 PM PST',
-    type: [EVENT_TYPES.meeting],
-    style: EVENT_STYLE.hybrid,
-    desc: 'Come join us for our first meeting of the year! We will be discussing our plans for the year and what we want to accomplish. We will be meeting on Discord and in the Lower Level of SJSU Library. We hope to see you there!'
-  },
-  {
-    name: 'Game Night',
+    name: 'Meeting',
     date: 'Sept. 8th',
-    time: '7:30 PM PST',
+    time: '7:00 PM PST',
     type: [EVENT_TYPES.meeting],
     style: EVENT_STYLE.hybrid,
     desc: 'Stay tuned for more information about this event.'
@@ -42,7 +34,7 @@ const events = [
   {
     name: 'Meeting',
     date: 'Sept. 15th',
-    time: '7:30 PM PST',
+    time: '7:00 PM PST',
     type: [EVENT_TYPES.meeting],
     style: EVENT_STYLE.hybrid,
     desc: 'Stay tuned for more information about this event.'
@@ -50,7 +42,7 @@ const events = [
   {
     name: 'Meeting',
     date: 'Sept. 22nd',
-    time: '7:30 PM PST',
+    time: '7:00 PM PST',
     type: [EVENT_TYPES.meeting],
     style: EVENT_STYLE.hybrid,
     desc: 'Stay tuned for more information about this event.'
@@ -58,7 +50,7 @@ const events = [
   {
     name: 'Meeting',
     date: 'Sept. 29th',
-    time: '7:30 PM PST',
+    time: '7:00 PM PST',
     type: [EVENT_TYPES.meeting],
     style: EVENT_STYLE.hybrid,
     desc: 'Stay tuned for more information about this event.'
@@ -66,7 +58,7 @@ const events = [
   {
     name: 'Meeting',
     date: 'Oct. 6th',
-    time: '7:30 PM PST',
+    time: '7:00 PM PST',
     type: [EVENT_TYPES.meeting],
     style: EVENT_STYLE.hybrid,
     desc: 'Stay tuned for more information about this event.'
@@ -74,7 +66,7 @@ const events = [
   {
     name: 'Meeting',
     date: 'Oct. 13th',
-    time: '7:30 PM PST',
+    time: '7:00 PM PST',
     type: [EVENT_TYPES.meeting],
     style: EVENT_STYLE.hybrid,
     desc: 'Stay tuned for more information about this event.'
@@ -82,7 +74,7 @@ const events = [
   {
     name: 'Meeting',
     date: 'Oct. 20th',
-    time: '7:30 PM PST',
+    time: '7:00 PM PST',
     type: [EVENT_TYPES.meeting],
     style: EVENT_STYLE.hybrid,
     desc: 'Stay tuned for more information about this event.'
@@ -90,7 +82,7 @@ const events = [
   {
     name: 'Meeting',
     date: 'Oct. 27th',
-    time: '7:30 PM PST',
+    time: '7:00 PM PST',
     type: [EVENT_TYPES.meeting],
     style: EVENT_STYLE.hybrid,
     desc: 'Stay tuned for more information about this event.'
@@ -98,7 +90,7 @@ const events = [
   {
     name: 'Meeting',
     date: 'Nov. 3rd',
-    time: '7:30 PM PST',
+    time: '7:00 PM PST',
     type: [EVENT_TYPES.meeting],
     style: EVENT_STYLE.hybrid,
     desc: 'Stay tuned for more information about this event.'
@@ -106,7 +98,7 @@ const events = [
   {
     name: 'Meeting',
     date: 'Nov. 10th',
-    time: '7:30 PM PST',
+    time: '7:00 PM PST',
     type: [EVENT_TYPES.meeting],
     style: EVENT_STYLE.hybrid,
     desc: 'Stay tuned for more information about this event.'
@@ -114,7 +106,7 @@ const events = [
   {
     name: 'Meeting',
     date: 'Nov. 17th',
-    time: '7:30 PM PST',
+    time: '7:00 PM PST',
     type: [EVENT_TYPES.meeting],
     style: EVENT_STYLE.hybrid,
     desc: 'Stay tuned for more information about this event.'
@@ -122,7 +114,7 @@ const events = [
   {
     name: 'Meeting',
     date: 'Nov. 24th',
-    time: '7:30 PM PST',
+    time: '7:00 PM PST',
     type: [EVENT_TYPES.meeting],
     style: EVENT_STYLE.hybrid,
     desc: 'Stay tuned for more information about this event.'
@@ -130,7 +122,7 @@ const events = [
   {
     name: 'Meeting',
     date: 'Dec. 1st',
-    time: '7:30 PM PST',
+    time: '7:00 PM PST',
     type: [EVENT_TYPES.meeting],
     style: EVENT_STYLE.hybrid,
     desc: 'Stay tuned for more information about this event.'
@@ -138,14 +130,14 @@ const events = [
   {
     name: 'Meeting',
     date: 'Dec. 8th',
-    time: '7:30 PM PST',
+    time: '7:00 PM PST',
     type: [EVENT_TYPES.meeting],
     style: EVENT_STYLE.hybrid,
     desc: 'Stay tuned for more information about this event.'
   }
 ]
 
-function Events () {
+function Events() {
   return (
     <div>
 

@@ -7,7 +7,8 @@ function Card (props) {
 
       <a className={styles.card} href={props.href} onClick={props.onClick}>
         {/* Image */}
-        <img src={props.img} className={styles.img} alt={props.title} />
+        {props.img &&
+          <img src={props.img} className={styles.img} alt={props.title} />}
 
         {/* Text */}
         <div className={styles.text}>

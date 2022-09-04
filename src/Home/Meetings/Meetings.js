@@ -29,11 +29,11 @@ function Meetings () {
         </span>
         <br />
         <span className={styles.emphasis1}>
-          7:30 PM PST
+          7:00 PM PST
         </span>
         <br />
         <span className={styles.emphasis2}>
-          on Discord and @ SJSU Library, Lower Level
+          on Discord and/or @ SJSU Library, Lower Level
         </span>
         <br />
       </div>

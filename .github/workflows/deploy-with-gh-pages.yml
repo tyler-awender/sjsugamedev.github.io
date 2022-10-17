@@ -13,10 +13,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Deploy with gh-pages
-      run: |
-        git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-        npx gh-pages -d build -u "github-actions-bot <support+actions@github.com>"
-        
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Check out Git repo
+      uses: actions/checkout@v2
+
+    - name: Install Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Install npm-merge-driver
+      run: npx npm-merge-driver install --global
+
+    - name: Install dependencies
+      run: npm i
+
+    - name: Deploy to gh-pages
+      run: npm run deploy

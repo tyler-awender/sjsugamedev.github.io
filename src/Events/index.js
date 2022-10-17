@@ -14,141 +14,86 @@ const EVENT_STYLE = {
   online: 'Online'
 }
 
+// Note:
+// Date objects follow the format: new Date(year, monthIndex, day, hours, minutes)
+// where monthIndex is 0-based (0 = January, 1 = February, etc.)
 const events = [
   {
     name: 'Meeting',
-    date: 'Sept. 8th',
-    time: '7:00 PM PST',
-    type: [EVENT_TYPES.meeting],
-    style: EVENT_STYLE.hybrid,
-    desc: 'Stay tuned for more information about this event.'
-  },
-  {
-    name: '7th Street Tabling',
-    date: 'Sept. 13th',
-    time: '1:00 PM PST',
-    type: [EVENT_TYPES.outreach],
-    style: EVENT_STYLE.inPerson,
-    desc: 'Stay tuned for more information about this event.'
-  },
-  {
-    name: 'Meeting',
-    date: 'Sept. 15th',
-    time: '7:00 PM PST',
+    date: new Date(2022, 9, 20, 19, 0),
     type: [EVENT_TYPES.meeting],
     style: EVENT_STYLE.hybrid,
     desc: 'Stay tuned for more information about this event.'
   },
   {
     name: 'Meeting',
-    date: 'Sept. 22nd',
-    time: '7:00 PM PST',
+    date: new Date(2022, 9, 27, 19, 0),
     type: [EVENT_TYPES.meeting],
     style: EVENT_STYLE.hybrid,
     desc: 'Stay tuned for more information about this event.'
   },
   {
     name: 'Meeting',
-    date: 'Sept. 29th',
-    time: '7:00 PM PST',
+    date: new Date(2022, 10, 3, 19, 0),
     type: [EVENT_TYPES.meeting],
     style: EVENT_STYLE.hybrid,
     desc: 'Stay tuned for more information about this event.'
   },
   {
     name: 'Meeting',
-    date: 'Oct. 6th',
-    time: '7:00 PM PST',
+    date: new Date(2022, 10, 10, 19, 0),
     type: [EVENT_TYPES.meeting],
     style: EVENT_STYLE.hybrid,
     desc: 'Stay tuned for more information about this event.'
   },
   {
     name: 'Meeting',
-    date: 'Oct. 13th',
-    time: '7:00 PM PST',
+    date: new Date(2022, 10, 17, 19, 0),
     type: [EVENT_TYPES.meeting],
     style: EVENT_STYLE.hybrid,
     desc: 'Stay tuned for more information about this event.'
   },
   {
     name: 'Meeting',
-    date: 'Oct. 20th',
-    time: '7:00 PM PST',
+    date: new Date(2022, 10, 24, 19, 0),
     type: [EVENT_TYPES.meeting],
     style: EVENT_STYLE.hybrid,
     desc: 'Stay tuned for more information about this event.'
   },
   {
     name: 'Meeting',
-    date: 'Oct. 27th',
-    time: '7:00 PM PST',
+    date: new Date(2022, 11, 1, 19, 0),
     type: [EVENT_TYPES.meeting],
     style: EVENT_STYLE.hybrid,
     desc: 'Stay tuned for more information about this event.'
   },
   {
     name: 'Meeting',
-    date: 'Nov. 3rd',
-    time: '7:00 PM PST',
-    type: [EVENT_TYPES.meeting],
-    style: EVENT_STYLE.hybrid,
-    desc: 'Stay tuned for more information about this event.'
-  },
-  {
-    name: 'Meeting',
-    date: 'Nov. 10th',
-    time: '7:00 PM PST',
-    type: [EVENT_TYPES.meeting],
-    style: EVENT_STYLE.hybrid,
-    desc: 'Stay tuned for more information about this event.'
-  },
-  {
-    name: 'Meeting',
-    date: 'Nov. 17th',
-    time: '7:00 PM PST',
-    type: [EVENT_TYPES.meeting],
-    style: EVENT_STYLE.hybrid,
-    desc: 'Stay tuned for more information about this event.'
-  },
-  {
-    name: 'Meeting',
-    date: 'Nov. 24th',
-    time: '7:00 PM PST',
-    type: [EVENT_TYPES.meeting],
-    style: EVENT_STYLE.hybrid,
-    desc: 'Stay tuned for more information about this event.'
-  },
-  {
-    name: 'Meeting',
-    date: 'Dec. 1st',
-    time: '7:00 PM PST',
-    type: [EVENT_TYPES.meeting],
-    style: EVENT_STYLE.hybrid,
-    desc: 'Stay tuned for more information about this event.'
-  },
-  {
-    name: 'Meeting',
-    date: 'Dec. 8th',
-    time: '7:00 PM PST',
+    date: new Date(2022, 11, 8, 19, 0),
     type: [EVENT_TYPES.meeting],
     style: EVENT_STYLE.hybrid,
     desc: 'Stay tuned for more information about this event.'
   }
 ]
 
-function Events() {
+function Events () {
+  // Filter out past events
+  const filteredEvents = events.filter(event => {
+    return event.date >= new Date()
+  })
+
   return (
     <div>
-
       <Container isPadded>
         <h1>EVENTS</h1>
         All events are subject to change.
       </Container>
 
-      <NextEvent event={events[0]} />
+      <NextEvent event={filteredEvents[0]} />
 
-      <UpcomingEvents events={events.slice(1)} />
+      {/* Show the upcoming events section if we have at least one event */}
+      {filteredEvents.length >= 1 &&
+        <UpcomingEvents events={filteredEvents.slice(1)} />}
     </div>
   )
 }

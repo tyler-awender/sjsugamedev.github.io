@@ -4,6 +4,7 @@ import Modal from '../components/Modal'
 import Container from '../components/Container'
 import Card from '../components/Card'
 import CardHolder from '../components/CardHolder'
+import formatDate from '../utils/formatDate'
 
 function UpcomingEvents (props) {
   const [openModal, setOpenModal] = useState(-1)
@@ -12,7 +13,7 @@ function UpcomingEvents (props) {
 
   let modalEventTimeText
   if (event) {
-    modalEventTimeText = event.time ? `${event.date} • ${event.time}` : event.date
+    modalEventTimeText = formatDate(event.date, true)
   }
 
   return (
@@ -20,23 +21,26 @@ function UpcomingEvents (props) {
 
       <h2>Upcoming events</h2>
 
-      <CardHolder>
-        {props.events.map(({ name, img, link, date, time }, i) => {
-          const timeText = time ? `${date} • ${time}` : date
-          return (
+      {props.events.length === 0 &&
+        <p>No upcoming events.</p>}
 
-            <Card
-              key={i}
-              href={link}
-              title={name}
-              img={img}
-              text={timeText}
-              onClick={() => setOpenModal(i)}
-            />
+      {props.events.length > 0 &&
+        <CardHolder>
+          {props.events.map(({ name, img, link, date, time }, i) => {
+            return (
 
-          )
-        })}
-      </CardHolder>
+              <Card
+                key={i}
+                href={link}
+                title={name}
+                img={img}
+                text={formatDate(date)}
+                onClick={() => setOpenModal(i)}
+              />
+
+            )
+          })}
+        </CardHolder>}
 
       {/* Modal */}
       {openModal !== -1 && (

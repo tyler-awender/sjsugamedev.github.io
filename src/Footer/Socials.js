@@ -80,7 +80,7 @@ function Socials () {
               backgroundColor: social.color
             }}
           >
-            <img src={social.icon} alt={social.name} width='32' height='32' class='svg' />
+            <img src={social.icon} alt={social.name} width='32' height='32' className='svg' />
             {social.showName && (social.name)}
           </ActionButton>
         ))}

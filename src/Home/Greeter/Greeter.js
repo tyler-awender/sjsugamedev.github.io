@@ -55,7 +55,7 @@ function Greeter () {
             bgColor='#000000'
             sixteenByNine
           >
-            <iframe width='100%' height='100%' src='https://www.youtube-nocookie.com/embed/lM32dkAMuLw?autoplay=1' title='YouTube video player' frameborder='0' allow='autoplay; encrypted-media; picture-in-picture' allowFullScreen />
+            <iframe width='100%' height='100%' src='https://www.youtube-nocookie.com/embed/lM32dkAMuLw?autoplay=1' title='YouTube video player' frameBorder='0' allow='autoplay; encrypted-media; picture-in-picture' allowFullScreen />
           </Modal>
         )}
 

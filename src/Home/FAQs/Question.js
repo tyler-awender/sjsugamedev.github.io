@@ -17,7 +17,7 @@ function Question (props) {
           <div className={styles['header-text']}>
             {props.question}
           </div>
-          <img src={openIndicator} alt='Discord' width='32' height='32' class='svg' />
+          <img src={openIndicator} alt='Discord' width='32' height='32' className='svg' />
         </div>
       </div>
 

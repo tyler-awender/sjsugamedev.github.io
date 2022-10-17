@@ -1,6 +1,7 @@
 import './Website.css'
 
-import { HashRouter, Route, Routes, NavLink } from 'react-router-dom'
+import { HashRouter, Route, Routes } from 'react-router-dom'
+// import { NavLink } from 'react-router-dom'
 
 import Banner from './components/Banner'
 import Header from './Navbar'
@@ -49,13 +50,15 @@ function Website () {
 
       <HashRouter basename='/'>
 
-        {banners.map(({ text, cta, styles }, index) => (
-          <Banner styles={styles} key={index}>
-            {text} {cta}
-          </Banner>
-        ))}
+        <div className='top'>
+          {banners.map(({ text, cta, styles }, index) => (
+            <Banner styles={styles} key={index}>
+              {text} {cta}
+            </Banner>
+          ))}
 
-        <Header tabs={tabs} />
+          <Header tabs={tabs} />
+        </div>
 
         <Routes>
           <Route path='/' exact element={<Home />} />

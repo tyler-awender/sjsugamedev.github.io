@@ -56,11 +56,6 @@ function Navbar (props) {
             .join(' ')}
       >
         <img src={logo} alt='Home' />
-        <div className={styles['home-button-text']}>
-          {/* <span className={styles.main}>Game Dev Club</span>
-          <br />
-          <span className={styles.sub}> at <b>SAN JOSÉ STATE UNIVERSITY</b></span> */}
-        </div>
       </NavLink>
 
       {/* <div className={styles.tabs}>

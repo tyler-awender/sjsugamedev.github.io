@@ -17,13 +17,13 @@ function VideoButton (props) {
         height='100%'
         src={props.src}
         title='YouTube video player'
-        frameborder='0'
+        frameBorder='0'
         allow='autoplay; encrypted-media'
       />
 
       <div className={styles.gradientOverlay} />
 
-      <img src={playIcon} alt='Play' width='32' height='32' class='svg' />
+      <img src={playIcon} alt='Play' width='32' height='32' className='svg' />
 
     </a>
   )

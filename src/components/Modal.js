@@ -21,7 +21,7 @@ function Modal (props) {
 
         {/* Close button */}
         <button className={styles.closeBtn} onClick={props.onClose}>
-          <img src={xIcon} alt='Close' width='32' height='32' class='svg' />
+          <img src={xIcon} alt='Close' width='32' height='32' className='svg' />
         </button>
 
         {/* Content */}

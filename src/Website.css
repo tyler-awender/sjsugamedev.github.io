@@ -1,35 +1,8 @@
-/* 
-Round:
-Barlow
-Barlow Condensed
-Barlow Semi Condensed'
-Oswald
-Mohave
-Akshar
-
-Heebo
-Gothic A1
-Overpass
-Shippori Antique
-
-Square:
-Electrolize
-Gemunu Libre
-Geo
-Iceland
-Kdam Thmor Pro
-Teko
-Rajdhani
-Rationale
-*/
-
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Barlow';
-  /* background-color: black; */
-  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; */
+  font-family: 'Barlow', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
 code {
@@ -85,4 +58,12 @@ h1 {
 
 .svg {
   filter: invert()
+}
+
+.top {
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1;
+  top: 0;
 }

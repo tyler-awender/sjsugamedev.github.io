@@ -19,57 +19,50 @@ const EVENT_STYLE = {
 // where monthIndex is 0-based (0 = January, 1 = February, etc.)
 const events = [
   {
-    name: 'Meeting',
-    date: new Date(2022, 9, 20, 19, 0),
+    name: 'Pre-Showcase',
+    date: new Date(2023, 9, 20, 19, 0),
+    type: [EVENT_TYPES.meeting],
+    style: EVENT_STYLE.hybrid,
+    desc: 'Stay tuned for more information about this event.'
+  },
+  {
+    name: 'Workshop 2',
+    date: new Date(2023, 9, 27, 19, 0),
+    type: [EVENT_TYPES.meeting],
+    style: EVENT_STYLE.hybrid,
+    desc: 'Stay tuned for more information about this event.'
+  },
+  {
+    name: 'Showcase 1',
+    date: new Date(2023, 10, 3, 19, 0),
+    type: [EVENT_TYPES.meeting],
+    style: EVENT_STYLE.hybrid,
+    desc: 'Stay tuned for more information about this event.'
+  },
+  {
+    name: 'Guest Speaker: Adrian (Blizzard)',
+    date: new Date(2023, 10, 10, 19, 0),
     type: [EVENT_TYPES.meeting],
     style: EVENT_STYLE.hybrid,
     desc: 'Stay tuned for more information about this event.'
   },
   {
     name: 'Meeting',
-    date: new Date(2022, 9, 27, 19, 0),
+    date: new Date(2023, 10, 17, 19, 0),
     type: [EVENT_TYPES.meeting],
     style: EVENT_STYLE.hybrid,
     desc: 'Stay tuned for more information about this event.'
   },
   {
     name: 'Meeting',
-    date: new Date(2022, 10, 3, 19, 0),
+    date: new Date(2023, 10, 24, 19, 0),
     type: [EVENT_TYPES.meeting],
     style: EVENT_STYLE.hybrid,
     desc: 'Stay tuned for more information about this event.'
   },
   {
-    name: 'Meeting',
-    date: new Date(2022, 10, 10, 19, 0),
-    type: [EVENT_TYPES.meeting],
-    style: EVENT_STYLE.hybrid,
-    desc: 'Stay tuned for more information about this event.'
-  },
-  {
-    name: 'Meeting',
-    date: new Date(2022, 10, 17, 19, 0),
-    type: [EVENT_TYPES.meeting],
-    style: EVENT_STYLE.hybrid,
-    desc: 'Stay tuned for more information about this event.'
-  },
-  {
-    name: 'Meeting',
-    date: new Date(2022, 10, 24, 19, 0),
-    type: [EVENT_TYPES.meeting],
-    style: EVENT_STYLE.hybrid,
-    desc: 'Stay tuned for more information about this event.'
-  },
-  {
-    name: 'Meeting',
-    date: new Date(2022, 11, 1, 19, 0),
-    type: [EVENT_TYPES.meeting],
-    style: EVENT_STYLE.hybrid,
-    desc: 'Stay tuned for more information about this event.'
-  },
-  {
-    name: 'Meeting',
-    date: new Date(2022, 11, 8, 19, 0),
+    name: 'Final Showcase',
+    date: new Date(2023, 11, 1, 19, 0),
     type: [EVENT_TYPES.meeting],
     style: EVENT_STYLE.hybrid,
     desc: 'Stay tuned for more information about this event.'

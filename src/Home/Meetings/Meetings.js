@@ -2,23 +2,27 @@ import styles from './Meetings.module.css'
 
 import Container from '../../components/Container'
 import ActionButton from '../../components/ActionButton'
+import ButtonList from '../../components/ButtonList'
 
 import libraryImage from '../../images/library.png'
-import discordIcon from '../../images/socials/discord.svg'
-import geoIcon from '../../images/icons/geo-alt-fill.svg'
+
+import { ReactComponent as DiscordIcon } from '../../images/socials/discord.svg'
+import { ReactComponent as GeoIcon } from '../../images/icons/geo-alt-fill.svg'
 
 function Meetings () {
   const background =
     `linear-gradient(
       to right,
-      rgba(255, 255, 255, 1.0), 
-      rgba(255, 255, 255, 0.5)
+      rgba(var(--background-color-rgb), 1.0), 
+      rgba(var(--background-color-rgb), 0.5)
     ), 
     url(${libraryImage})`
   return (
     <Container
       isPadded
-      backgroundImage={background}
+      styles={{
+        backgroundImage: background
+      }}
       className={styles.container}
     >
       {/* Text */}
@@ -39,7 +43,7 @@ function Meetings () {
       </div>
 
       {/* Buttons */}
-      <div className={styles.buttonList}>
+      <ButtonList>
 
         {/* Discord button */}
         <ActionButton
@@ -49,7 +53,7 @@ function Meetings () {
             backgroundColor: '#5865F2'
           }}
         >
-          <img src={discordIcon} alt='Discord' width='32' height='32' className='svg' />
+          <DiscordIcon alt='Discord' width='28' height='28' />
           Join our Discord
         </ActionButton>
 
@@ -61,11 +65,11 @@ function Meetings () {
             backgroundColor: '#dd4b3e'
           }}
         >
-          <img src={geoIcon} alt='Discord' width='32' height='32' className='svg' />
+          <GeoIcon alt='Google Maps' width='28' height='28' />
           SJSU Library
         </ActionButton>
 
-      </div>
+      </ButtonList>
     </Container>
   )
 }

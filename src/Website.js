@@ -1,15 +1,16 @@
 import './Website.css'
 
-import { HashRouter, Route, Routes } from 'react-router-dom'
-// import { NavLink } from 'react-router-dom'
+import { HashRouter, Route, Routes /* NavLink */ } from 'react-router-dom'
 
 import Banner from './components/Banner'
 import Header from './Navbar'
 import Footer from './Footer'
 
 import Home from './Home'
+import Games from './Games'
 import Events from './Events'
 import SummerWorkshop from './SummerWorkshop'
+import { useState, useEffect } from 'react'
 
 const banners = [
   // {
@@ -29,8 +30,8 @@ const banners = [
 const tabs = [
   {
     label: 'Games',
-    link: 'https://sjsugamedev.itch.io/',
-    isExternal: true
+    link: '/games',
+    isExternal: false
   },
   {
     label: 'Events',
@@ -45,6 +46,31 @@ const tabs = [
 ]
 
 function Website () {
+  /* eslint-disable-next-line no-undef */
+  const localStorageIsDarkTheme = localStorage.getItem('theme') === 'theme-dark'
+  const [isDarkTheme, setDarkTheme] = useState(localStorageIsDarkTheme)
+
+  useEffect(() => {
+    applyDarkTheme()
+  })
+
+  function toggleTheme () {
+    setDarkTheme(!isDarkTheme)
+    applyDarkTheme()
+  }
+
+  function applyDarkTheme () {
+    if (isDarkTheme) {
+      /* eslint-disable-next-line no-undef */
+      localStorage.setItem('theme', 'theme-dark')
+      document.body.classList.add('theme-dark')
+    } else {
+      /* eslint-disable-next-line no-undef */
+      localStorage.setItem('theme', 'theme-light')
+      document.body.classList.remove('theme-dark')
+    }
+  }
+
   return (
     <div>
 
@@ -57,12 +83,12 @@ function Website () {
             </Banner>
           ))}
 
-          <Header tabs={tabs} />
+          <Header tabs={tabs} isDarkTheme={isDarkTheme} toggleTheme={toggleTheme} />
         </div>
 
         <Routes>
           <Route path='/' exact element={<Home />} />
-          {/* <Route path='/games' exact element={<Games />} /> */}
+          <Route path='/games' exact element={<Games />} />
           <Route path='/events' exact element={<Events />} />
 
           <Route path='/summer2022' exact element={<SummerWorkshop />} />

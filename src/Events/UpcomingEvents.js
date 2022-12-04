@@ -45,11 +45,11 @@ function UpcomingEvents (props) {
       {/* Modal */}
       {openModal !== -1 && (
         <Modal small onClose={() => setOpenModal(-1)}>
-          <Container isPadded backgroundColor='#eeeeee'>
+          <Container isPadded styles={{ backgroundColor: 'var(--tertiary-background-color' }}>
             <h1>{event.name}</h1>
             <h3>{modalEventTimeText}</h3>
           </Container>
-          <Container isPadded backgroundColor='#ffffff'>
+          <Container isPadded styles={{ backgroundColor: 'var(--background-color' }}>
             <p>{event.desc}</p>
           </Container>
         </Modal>

@@ -69,7 +69,9 @@ function FAQs () {
   return (
     <Container
       isPadded
-      backgroundColor='#fafafa'
+      styles={{
+        backgroundColor: 'var(--secondary-background-color)'
+      }}
       className={styles.container}
     >
       <div>

@@ -1,70 +1,50 @@
 import styles from './index.module.css'
 
-import { NavLink } from 'react-router-dom'
 import Container from '../components/Container'
 import logo from '../images/logo.png'
 
-// import MenuButton from './MenuButton'
+import Tab from './Tab'
+import Menu from './Menu'
 
-function createTab (tab) {
-  if (tab.isExternal) {
-    // External link: use <a>
-    return (
-      <a href={tab.link} className={styles.tab} key={tab.label}>
-        <div className={styles['tab-text']}>
-          {tab.label}
-        </div>
-      </a>
-    )
-  } else {
-    // Internal link: use <Link>
-    return (
-      <NavLink
-        to={tab.link}
-        className={({ isActive }) =>
-          [
-            styles.tab,
-            isActive ? styles.active : null
-          ]
-            .filter(Boolean)
-            .join(' ')}
-        key={tab.label}
-      >
-        <div className={styles['tab-text']}>
-          {tab.label}
-        </div>
-      </NavLink>
-    )
+function Navbar(props) {
+  function handleToggleTheme() {
+    props.toggleTheme()
   }
-}
 
-function Navbar (props) {
   return (
     <Container
-      backgroundColor='#fff'
+      styles={{
+        backgroundColor: 'var(--background-color)'
+      }}
       className={styles.container}
     >
-      {/* Home */}
-      <NavLink
-        to='/'
-        className={({ isActive }) =>
-          [
-            styles['home-button'],
-            isActive ? styles.active : null
-          ]
-            .filter(Boolean)
-            .join(' ')}
-      >
+      {/* Left side: Home */}
+      <Tab link='/'>
         <img src={logo} alt='Home' />
-      </NavLink>
+      </Tab>
 
-      {/* <div className={styles.tabs}>
-        <MenuButton />
-      </div> */}
+      {/* Right side menu (show on small screens) */}
+      <div className={styles.menu}>
+        <Menu>
+          {/* Dark/light mode toggle */}
+          <Tab onClick={handleToggleTheme} isExternal isVertical>
+              {props.isDarkTheme ? '☀️' : '🌙'}
+          </Tab>
 
-      {/* Other tabs */}
+          {/* Other tabs */}
+          {props.tabs.map((tab, i) => <Tab key={i} {...tab} isVertical />)}
+        </Menu>
+      </div>
+
+      {/* Right side tabs (show on large screens) */}
       <div className={styles.tabs}>
-        {props.tabs.map(createTab)}
+        {/* Dark/light mode toggle */}
+        <Tab onClick={handleToggleTheme} isExternal>
+          {props.isDarkTheme ? '☀️' : '🌙'}
+        </Tab>
+
+        {/* Other tabs */}
+        {props.tabs.map((tab, i) => <Tab key={i} {...tab} />)}
       </div>
     </Container>
   )

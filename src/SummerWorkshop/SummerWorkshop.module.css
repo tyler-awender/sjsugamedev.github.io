@@ -1,22 +1,16 @@
-.buttonList {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-}
-
 .projectsList {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: flex-start;
-  gap: 24px;
+  gap: 20px;
 }
 
 .contactsList {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 32px;
+  gap: 28px;
 }
 
 th {
@@ -25,7 +19,7 @@ th {
 }
 
 th, td {
-  padding: 12px;
+  padding: 10px;
   border-bottom: 1px solid #ddd;
 }
 

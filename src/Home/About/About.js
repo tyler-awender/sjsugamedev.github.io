@@ -4,7 +4,12 @@ import Container from '../../components/Container'
 
 function About () {
   return (
-    <Container isPadded>
+    <Container
+      styles={{
+        backgroundColor: 'var(--secondary-background-color)'
+      }}
+      isPadded
+    >
       <h2>Why join?</h2>
 
       <div className={styles.description}>

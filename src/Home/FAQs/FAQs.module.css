@@ -11,10 +11,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
-  gap: 16px;
+  gap: 14px;
 }
 
 .controls a {
-  font-size: 16px;
-  padding: 2px 10px;
+  font-size: var(--text-small);
+    padding: 2px 8px;
 }

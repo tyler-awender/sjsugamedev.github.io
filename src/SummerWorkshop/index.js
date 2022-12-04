@@ -5,6 +5,7 @@ import ActionButton from '../components/ActionButton'
 import Card from '../components/Card'
 import CardHolder from '../components/CardHolder'
 import Profile from '../components/Profile'
+import ButtonList from '../components/ButtonList'
 
 // Games
 import breakImg from './img/2022/break.png'
@@ -135,7 +136,7 @@ function SummerWorkshop (props) {
       {/* Header */}
       <Container isPadded>
         <h1>SUMMER WORKSHOP 2022</h1>
-        <div className={styles.buttonList}>
+        <ButtonList>
           <ActionButton
             href='https://bit.ly/2022sjsugdw'
             styles={{
@@ -145,7 +146,7 @@ function SummerWorkshop (props) {
           >
             Sign up
           </ActionButton>
-        </div>
+        </ButtonList>
       </Container>
 
       {/* About the workshop */}

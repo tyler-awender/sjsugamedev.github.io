@@ -1,13 +1,13 @@
 import styles from './Question.module.css'
 
-import chevronDown from '../../images/symbols/chevron-down.svg'
-import chevronUp from '../../images/symbols/chevron-up.svg'
+import { ReactComponent as ChevronDown } from '../../images/symbols/chevron-down.svg'
+import { ReactComponent as ChevronUp } from '../../images/symbols/chevron-up.svg'
 
 function Question (props) {
   // const [isOpen, setIsOpen] = useState(false)
 
   const { isOpen, onClick } = props
-  const openIndicator = isOpen ? chevronUp : chevronDown
+  const OpenIndicator = isOpen ? ChevronUp : ChevronDown
 
   return (
     <div>
@@ -17,7 +17,7 @@ function Question (props) {
           <div className={styles['header-text']}>
             {props.question}
           </div>
-          <img src={openIndicator} alt='Discord' width='32' height='32' className='svg' />
+          <OpenIndicator width='20' height='20' />
         </div>
       </div>
 

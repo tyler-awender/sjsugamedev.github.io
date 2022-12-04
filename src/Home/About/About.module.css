@@ -1,14 +1,16 @@
 .description {
   display: flex;
   flex-direction: column;
-  font-size: 36px;
+  font-size: var(--text-3xlarge);
+  line-height: var(--text-3xlarge-line-height);
   word-spacing: 0.1em;
   overflow: hidden;
   white-space: nowrap;
 }
 
 .emphasize {
-  font-size: 72px;
+  font-size: var(--text-6xlarge);
+  line-height: var(--text-6xlarge-line-height);
   text-transform: uppercase;
   font-weight: 600;
 }

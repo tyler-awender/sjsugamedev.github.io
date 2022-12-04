@@ -1,6 +1,6 @@
 import styles from './VideoButton.module.css'
 
-import playIcon from '../images/icons/play-circle.svg'
+import { ReactComponent as PlayIcon } from '../images/icons/play-circle.svg'
 
 function VideoButton (props) {
   return (
@@ -21,9 +21,7 @@ function VideoButton (props) {
         allow='autoplay; encrypted-media'
       />
 
-      <div className={styles.gradientOverlay} />
-
-      <img src={playIcon} alt='Play' width='32' height='32' className='svg' />
+      <PlayIcon alt='Play' width='64' height='64' className={styles.playIcon} fill={props.iconColor || 'white'} />
 
     </a>
   )

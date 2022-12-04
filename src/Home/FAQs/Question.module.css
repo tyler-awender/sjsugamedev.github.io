@@ -3,23 +3,23 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  column-gap: 32px;
+  column-gap: 28px;
 
-  background-color: #0055a2;
+  background-color: var(--primary-color);
   color: #fff;
-  min-height: 36px;
-  padding: 12px 12px;
+  min-height: 32px;
+  padding: 10px 10px;
 
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: var(--text-medium);
+    font-weight: 600;
   word-spacing: 0.2em;
   
   cursor: pointer;
 }
 
 .content {
-  background-color: #e8e8e8;
-  padding: 24px 12px;
+  background-color: var(--tertiary-background-color);
+  padding: 20px 10px;
 }

@@ -2,15 +2,13 @@ import styles from './Container.module.css'
 
 function Container (props) {
   const backgroundStyles = {
-    backgroundImage: props.backgroundImage,
-    backgroundColor: props.backgroundColor,
     backgroundPosition: 'top',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover'
   }
 
   return (
-    <div style={backgroundStyles}>
+    <div style={{ ...backgroundStyles, ...props.styles }}>
 
       {/* Container content */}
       <div

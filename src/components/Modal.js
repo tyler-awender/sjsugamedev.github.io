@@ -1,6 +1,6 @@
 import styles from './Modal.module.css'
 
-import xIcon from '../images/icons/x-lg.svg'
+import { ReactComponent as CloseIcon } from '../images/icons/x-lg.svg'
 
 function Modal (props) {
   return (
@@ -15,13 +15,14 @@ function Modal (props) {
           (props.small && styles.small)
         ].join(' ')}
         style={{
+          ...props.styles,
           backgroundColor: props.bgColor
         }}
       >
 
         {/* Close button */}
         <button className={styles.closeBtn} onClick={props.onClose}>
-          <img src={xIcon} alt='Close' width='32' height='32' className='svg' />
+          <CloseIcon alt='Close' width='28' height='28' />
         </button>
 
         {/* Content */}

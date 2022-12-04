@@ -13,7 +13,7 @@ function NextEvent (props) {
         <p>No upcoming events.</p>}
 
       {props.event !== undefined &&
-        <Container isPadded backgroundColor='#eee'>
+        <Container isPadded styles={{ backgroundColor: 'var(--secondary-background-color)' }}>
           <h1>{event.name}</h1>
           <h3>{formatDate(event.date)}</h3>
           <p>{event.desc}</p>

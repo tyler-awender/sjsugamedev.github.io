@@ -9,21 +9,22 @@ import Modal from '../../components/Modal'
 import welcomeImage from '../../images/welcome.png'
 
 function Greeter () {
-  const background =
-    `linear-gradient(
-      to right,
-      rgba(255, 255, 255, 0.9), 
-      rgba(255, 255, 255, 0.9), 
-      rgba(255, 255, 255, 0.33)
-    ), 
-    url(${welcomeImage})`
+  const background = `linear-gradient(
+    to right,
+    rgba(var(--background-color-rgb), 0.9),
+    rgba(var(--background-color-rgb), 0.9),
+    rgba(var(--background-color-rgb), 0.33)
+  ),
+  url(${welcomeImage})`
 
   const [videoVisible, setVideoVisible] = useState(false)
 
   return (
     <Container
       isPadded
-      backgroundImage={background}
+      styles={{
+        backgroundImage: background
+      }}
       className={styles.container}
     >
       <div className={styles.greetingFlex}>

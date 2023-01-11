@@ -10,8 +10,8 @@ import Modal from '../components/Modal'
 
 import { ReactComponent as PlayIcon } from '../images/icons/play-fill.svg'
 
-export default function Arcade(props) {
-  function playGame(game) {
+export default function Arcade (props) {
+  function playGame (game) {
     // Hide the modal and update the selected game
     setModalSelection(null)
     setEmbedSelection(game)

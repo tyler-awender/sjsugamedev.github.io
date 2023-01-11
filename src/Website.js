@@ -10,6 +10,7 @@ import Home from './Home'
 import Games from './Games'
 import Events from './Events'
 import SummerWorkshop from './SummerWorkshop'
+import GlobalGameJam from './GlobalGameJam'
 import { useState, useEffect } from 'react'
 
 const banners = [
@@ -92,6 +93,7 @@ function Website () {
           <Route path='/events' exact element={<Events />} />
 
           <Route path='/summer2022' exact element={<SummerWorkshop />} />
+          <Route path='/ggj2023' exact element={<GlobalGameJam />} />
         </Routes>
 
         <Footer tabs={tabs} />

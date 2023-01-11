@@ -147,7 +147,7 @@ function SummerWorkshop (props) {
             href='https://bit.ly/2022sjsugdw'
             styles={{
               color: 'white',
-              backgroundColor: '#0055a2'
+              backgroundColor: 'var(--primary-color)'
             }}
           >
             Sign up

@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.57938723.css",
-    "main.js": "/static/js/main.aa4ea9d4.js",
+    "main.css": "/static/css/main.f9ba2530.css",
+    "main.js": "/static/js/main.deb45fb4.js",
     "static/media/josh.png": "/static/media/josh.4cfd3911868bc47e7552.png",
+    "static/media/gamedevphoto1.jpg": "/static/media/gamedevphoto1.da3576ba55cd194e5144.jpg",
     "static/media/restore.png": "/static/media/restore.f7667a91b602561ba310.png",
     "static/media/tezca.png": "/static/media/tezca.b74d11df965efd935deb.png",
     "static/media/jasmine.png": "/static/media/jasmine.09b12cad1134818da543.png",
@@ -19,6 +20,8 @@
     "static/media/summergame3.png": "/static/media/summergame3.7a543e459daf717327d9.png",
     "static/media/hermes.png": "/static/media/hermes.4aca8c31b52d7ad3c894.png",
     "static/media/aiden.jpg": "/static/media/aiden.dbbd8d7dff1892de5506.jpg",
+    "static/media/gamedevphoto2.jpg": "/static/media/gamedevphoto2.58ba5ae5831279eea17d.jpg",
+    "static/media/ggjphoto1.png": "/static/media/ggjphoto1.6d5c78d99470f76dc3cb.png",
     "static/media/summergame1.png": "/static/media/summergame1.29fffc211efbb0b2bbd2.png",
     "static/media/summergame4.png": "/static/media/summergame4.dc9998f4bf6304111965.png",
     "static/media/cyber-20s.jpg": "/static/media/cyber-20s.afdb4f3e421edebfd6f8.jpg",
@@ -36,16 +39,17 @@
     "static/media/twitter.svg": "/static/media/twitter.db226d55c343637e1371fc247b144b51.svg",
     "static/media/facebook.svg": "/static/media/facebook.4d4460260f64103d8da4a91d8e856d36.svg",
     "static/media/twitch.svg": "/static/media/twitch.f27b776844090117a16a3de4a5276787.svg",
-    "static/media/play-circle.svg": "/static/media/play-circle.af4c6fc2a07a71414616337856aebf7a.svg",
+    "static/media/check-circle-fill.svg": "/static/media/check-circle-fill.62328d386b9989ccc63d893605a3d91b.svg",
     "static/media/x-lg.svg": "/static/media/x-lg.f520e54c746f7505bec401e45a68a2de.svg",
     "static/media/chevron-down.svg": "/static/media/chevron-down.8624f04faf16b2d07c00235d9dc68ae2.svg",
+    "static/media/play-fill.svg": "/static/media/play-fill.8a149f64342aa42c87f00827ccc8ac0c.svg",
     "static/media/chevron-up.svg": "/static/media/chevron-up.21ead3be1dbf588b9fb74874b00dd155.svg",
     "static/media/geo-alt-fill.svg": "/static/media/geo-alt-fill.94c6a40d70da7b868b3ef5f3020a41d5.svg",
-    "main.57938723.css.map": "/static/css/main.57938723.css.map",
-    "main.aa4ea9d4.js.map": "/static/js/main.aa4ea9d4.js.map"
+    "main.f9ba2530.css.map": "/static/css/main.f9ba2530.css.map",
+    "main.deb45fb4.js.map": "/static/js/main.deb45fb4.js.map"
   },
   "entrypoints": [
-    "static/css/main.57938723.css",
-    "static/js/main.aa4ea9d4.js"
+    "static/css/main.f9ba2530.css",
+    "static/js/main.deb45fb4.js"
   ]
 }

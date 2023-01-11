@@ -7,6 +7,7 @@ function ActionButton (props) {
       className={styles.button}
       style={props.styles}
       onClick={props.onClick}
+      target={props.target}
     >
       {props.children}
     </a>

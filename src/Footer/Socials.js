@@ -70,9 +70,9 @@ function Socials () {
       <h2>Follow us</h2>
 
       <ButtonList>
-        {socials.map(social => (
+        {socials.map((social, i) => (
           <ActionButton
-            key={social.name}
+            key={i}
             href={social.link}
             styles={{
               color: 'white',

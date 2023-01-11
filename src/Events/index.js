@@ -2,6 +2,8 @@ import Container from '../components/Container'
 import NextEvent from './NextEvent'
 import UpcomingEvents from './UpcomingEvents'
 
+import { useEffect } from 'react'
+
 const EVENT_TYPES = {
   meeting: 'Meeting',
   workshop: 'Workshop',
@@ -70,6 +72,10 @@ const events = [
 ]
 
 function Events () {
+  useEffect(() => {
+    document.title = 'Events'
+  })
+
   // Filter out past events
   const filteredEvents = events.filter(event => {
     return event.date >= new Date()
@@ -79,7 +85,7 @@ function Events () {
     <div>
       <Container isPadded>
         <h1>EVENTS</h1>
-        All events are subject to change.
+        <p>All events are subject to change.</p>
       </Container>
 
       <NextEvent event={filteredEvents[0]} />

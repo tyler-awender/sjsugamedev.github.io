@@ -3,6 +3,7 @@
   background-color: var(--primary-color);
 	width: 235px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .img {

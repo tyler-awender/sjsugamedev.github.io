@@ -4,7 +4,13 @@ import About from './About/About'
 import Officers from './Officers/Officers'
 import FAQs from './FAQs/FAQs'
 
+import { useEffect } from 'react'
+
 function Home () {
+  useEffect(() => {
+    document.title = 'Game Dev Club @ SJSU'
+  })
+
   return (
     <div>
       <Greeter />

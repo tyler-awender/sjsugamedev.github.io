@@ -3,6 +3,7 @@ body {
   --background-color: #ffffff;
   --background-color-rgb: 255, 255, 255;
   --secondary-background-color: #f4f4f4;
+  --secondary-background-color-rgb: 244, 244, 244;
   --tertiary-background-color: #e4e4e4;
   --default-banner-background-color: wheat;
   --header-color: #0055a2;
@@ -16,6 +17,7 @@ body.theme-dark {
   --background-color: #181a1b;
   --background-color-rgb: 30, 30, 30;
   --secondary-background-color: #1f2020;
+  --secondary-background-color-rgb: 31, 32, 32;
   --tertiary-background-color: #26292b;
   --default-banner-background-color: #544426;
   --header-color: #6bbeff;
@@ -27,19 +29,32 @@ body.theme-dark {
 
 /* Typography */
 body {
-  --text-2xsmall: 0.625rem; /* 10px */
-  --text-xsmall: 0.75rem; /* 12px */
-  --text-small: 0.875rem; /* 14px */
-  --text-medium: 1rem;   /*` 16px */
-  --text-large: 1.125rem; /* 18px */ 
-  --text-xlarge: 1.25rem; /* 20px */
-  --text-2xlarge: 1.5rem; /* 24px */
-  --text-3xlarge: 2rem;  /* 32px */
-  --text-4xlarge: 2.5rem; /* 40px */
-  --text-5xlarge: 3rem;  /* 48px */
-  --text-6xlarge: 3.5rem; /* 56px */
-  --text-7xlarge: 4rem;  /* 64px */
-  --text-8xlarge: 4.5rem; /* 72px */
+  --text-2xsmall: 0.625rem;
+  /* 10px */
+  --text-xsmall: 0.75rem;
+  /* 12px */
+  --text-small: 0.875rem;
+  /* 14px */
+  --text-medium: 1rem;
+  /*` 16px */
+  --text-large: 1.125rem;
+  /* 18px */
+  --text-xlarge: 1.25rem;
+  /* 20px */
+  --text-2xlarge: 1.5rem;
+  /* 24px */
+  --text-3xlarge: 2rem;
+  /* 32px */
+  --text-4xlarge: 2.5rem;
+  /* 40px */
+  --text-5xlarge: 3rem;
+  /* 48px */
+  --text-6xlarge: 3.5rem;
+  /* 56px */
+  --text-7xlarge: 4rem;
+  /* 64px */
+  --text-8xlarge: 4.5rem;
+  /* 72px */
 }
 
 
@@ -64,6 +79,7 @@ code {
     transform: translateY(0);
     filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.3));
   }
+
   100% {
     -webkit-transform: translateY(-4px);
     transform: translateY(-4px);
@@ -77,6 +93,7 @@ code {
     transform: translateY(-4px);
     filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.15));
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
@@ -84,22 +101,27 @@ code {
   }
 }
 
-a:hover {
+a:hover, .hoverable:hover, a:focus, .hoverable:focus {
   animation: ease-in-out rise 0.15s forwards;
 }
 
-a:not(:hover) {
+a:not(:hover):not(:focus), .hoverable:not(:hover):not(:focus) {
   animation: ease-out lower 0.15s forwards;
 }
 
 /* Change color of headings */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--header-color);
 }
 
 h1 {
   font-size: var(--text-6xlarge);
-  font-weight: 600; 
+  font-weight: 600;
 }
 
 .top {

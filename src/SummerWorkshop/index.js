@@ -1,4 +1,4 @@
-import styles from './SummerWorkshop.module.css'
+import styles from './index.module.css'
 
 import Container from '../components/Container'
 import ActionButton from '../components/ActionButton'
@@ -27,6 +27,8 @@ import logo from '../images/logo.png'
 import rafaelImage from '../images/officers/rafael.png'
 import joshImage from '../images/officers/josh.png'
 import jamesImage from '../images/officers/james.webp'
+
+import { useEffect } from 'react'
 
 const pastProjects = [
   {
@@ -131,6 +133,10 @@ const contacts = [
 ]
 
 function SummerWorkshop (props) {
+  useEffect(() => {
+    document.title = 'Summer Workshop 2022'
+  })
+
   return (
     <div>
       {/* Header */}
@@ -171,8 +177,9 @@ function SummerWorkshop (props) {
               href={link}
               title={name}
               img={img}
-              text={desc}
-            />
+            >
+              <p>{desc}</p>
+            </Card>
           ))}
         </CardHolder>
 

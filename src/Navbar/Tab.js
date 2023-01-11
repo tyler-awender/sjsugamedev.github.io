@@ -2,11 +2,11 @@ import styles from './Tab.module.css'
 
 import { NavLink } from 'react-router-dom'
 
-function scrollToTop() {
+function scrollToTop () {
   window.scrollTo(0, 0)
 }
 
-export default function Tab(props) {
+export default function Tab (props) {
   if (props.isExternal) {
     return (
       // External link / non-internal link
@@ -16,10 +16,11 @@ export default function Tab(props) {
         className={
           [
             styles.tab,
-            props.isVertical ? styles.vertical : null,
+            props.isVertical ? styles.vertical : null
           ]
             .filter(Boolean)
-            .join(' ')}
+            .join(' ')
+}
       >
         {props.label}
         {props.children}
@@ -29,7 +30,7 @@ export default function Tab(props) {
     return (
       // Internal link: use <Link>
       <NavLink
-        onClick={() => { props.onClick(); scrollToTop(); }}
+        onClick={() => { props.onClick?.(); scrollToTop() }}
         to={props.link}
         className={({ isActive }) =>
           [

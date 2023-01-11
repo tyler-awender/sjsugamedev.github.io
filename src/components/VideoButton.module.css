@@ -9,7 +9,7 @@
   align-items: center;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 540px) {
   .button {
     height: 168px;
     width: 300px;

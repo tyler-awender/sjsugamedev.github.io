@@ -1,6 +1,6 @@
 import styles from './VideoButton.module.css'
 
-import { ReactComponent as PlayIcon } from '../images/icons/play-circle.svg'
+import { ReactComponent as PlayIcon } from '../images/icons/play-fill.svg'
 
 function VideoButton (props) {
   return (
@@ -21,7 +21,7 @@ function VideoButton (props) {
         allow='autoplay; encrypted-media'
       />
 
-      <PlayIcon alt='Play' width='64' height='64' className={styles.playIcon} fill={props.iconColor || 'white'} />
+      <PlayIcon alt='Play' width='72' height='72' className={styles.playIcon} fill={props.iconColor || 'white'} />
 
     </a>
   )

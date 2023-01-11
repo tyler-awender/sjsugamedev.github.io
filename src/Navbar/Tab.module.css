@@ -73,11 +73,11 @@
   }
 }
 
-:not(.vertical).tab:hover {
+:not(.vertical).tab:hover, :not(.vertical).tab:focus{
   animation: ease-in-out tab-show-bottom-line 0.15s forwards;
 }
 
-:not(.vertical).tab:not(:hover) {
+:not(.vertical).tab:not(:hover):not(:focus) {
   animation: ease-out tab-hide-bottom-line 0.15s forwards;
 }
 
@@ -89,11 +89,11 @@
 }
 
 /* Overrides for vertical tabs*/
-.vertical.tab:hover {
+.vertical.tab:hover, .vertical.tab:focus {
   animation: ease-in-out tab-show-left-line 0.15s forwards;
 }
 
-.vertical.tab:not(:hover) {
+.vertical.tab:not(:hover):not(:focus) {
   animation: ease-out tab-hide-left-line 0.15s forwards;
 }
 

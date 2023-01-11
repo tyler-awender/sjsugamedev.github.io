@@ -6,8 +6,8 @@ import logo from '../images/logo.png'
 import Tab from './Tab'
 import Menu from './Menu'
 
-function Navbar(props) {
-  function handleToggleTheme() {
+function Navbar (props) {
+  function handleToggleTheme () {
     props.toggleTheme()
   }
 
@@ -28,7 +28,7 @@ function Navbar(props) {
         <Menu>
           {/* Dark/light mode toggle */}
           <Tab onClick={handleToggleTheme} isExternal isVertical>
-              {props.isDarkTheme ? '☀️' : '🌙'}
+            {props.isDarkTheme ? '☀️' : '🌙'}
           </Tab>
 
           {/* Other tabs */}

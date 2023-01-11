@@ -70,12 +70,12 @@ function Officers () {
       <h2>Officers</h2>
 
       <div className={styles['officers-list']}>
-        {officers.map(officer => (
+        {officers.map(({ name, position, image }, i) => (
           <Profile
-            key={officer.name}
-            name={officer.name}
-            position={officer.position}
-            image={officer.image}
+            key={i}
+            name={name}
+            position={position}
+            image={image}
           />
         ))}
       </div>

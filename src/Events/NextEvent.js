@@ -16,7 +16,7 @@ function NextEvent (props) {
         <Container isPadded styles={{ backgroundColor: 'var(--secondary-background-color)' }}>
           <h1>{event.name}</h1>
           <h3>{formatDate(event.date)}</h3>
-          <p>{event.desc}</p>
+          {event.desc.split('\n').map((line, i) => <p key={i}>{line}</p>)}
         </Container>}
 
     </Container>

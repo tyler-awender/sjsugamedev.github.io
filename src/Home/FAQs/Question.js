@@ -14,10 +14,10 @@ function Question (props) {
       {/* Question header */}
       <div tabIndex='0' onClick={onClick}>
         <div className={styles.header}>
-          <div className={styles['header-text']}>
-            {props.question}
+          {props.question}
+          <div className={styles.headerIcon}>
+            <OpenIndicator width='20' height='20' />
           </div>
-          <OpenIndicator width='20' height='20' />
         </div>
       </div>
 

@@ -34,9 +34,10 @@ function UpcomingEvents (props) {
                 href={link}
                 title={name}
                 img={img}
-                text={formatDate(date)}
                 onClick={() => setOpenModal(i)}
-              />
+              >
+                <p> {formatDate(date)} </p>
+              </Card>
 
             )
           })}
@@ -50,7 +51,7 @@ function UpcomingEvents (props) {
             <h3>{modalEventTimeText}</h3>
           </Container>
           <Container isPadded styles={{ backgroundColor: 'var(--background-color' }}>
-            <p>{event.desc}</p>
+            {event.desc.split('\n').map((line, i) => <p key={i}>{line}</p>)}
           </Container>
         </Modal>
       )}

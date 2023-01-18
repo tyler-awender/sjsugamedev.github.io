@@ -9,6 +9,7 @@ import Footer from './Footer'
 import Home from './Home'
 import Games from './Games'
 import Events from './Events'
+import PageNotFound from './PageNotFound'
 import SummerWorkshop from './SummerWorkshop'
 import GlobalGameJam from './GlobalGameJam'
 import { useState, useEffect } from 'react'
@@ -94,6 +95,9 @@ function Website () {
 
           <Route path='/summer2022' exact element={<SummerWorkshop />} />
           <Route path='/ggj2023' exact element={<GlobalGameJam />} />
+
+          {/* 404 */}
+          <Route path='*' element={<PageNotFound />}/>
         </Routes>
 
         <Footer tabs={tabs} />

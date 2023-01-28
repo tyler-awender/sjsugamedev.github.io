@@ -191,7 +191,7 @@ function GlobalGameJam (props) {
         <p>Follow the instructions to become verified. We will be using this server to meet and communicate during the jam.</p>
         {/* Step 2 */}
         <h3>2. Go to the SJSU Global Game Jam site</h3>
-        <p>Click <a href='https://globalgamejam.org/2021/jam-sites/san-jos%C3%A9-state-university'>here</a> to go to the website.</p>
+        <p>Click <a href='https://globalgamejam.org/2023/jam-sites/game-dev-club-sjsu'>here</a> to go to the website.</p>
         {/* Step 3 */}
         <h3>3. Join this jam </h3>
         <p>

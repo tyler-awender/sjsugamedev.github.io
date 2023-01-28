@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.b0c3b183.css",
-    "main.js": "/static/js/main.9f21cd42.js",
+    "main.js": "/static/js/main.330dd6e3.js",
     "static/media/josh.png": "/static/media/josh.4cfd3911868bc47e7552.png",
-    "static/media/gamedevphoto1.jpg": "/static/media/gamedevphoto1.da3576ba55cd194e5144.jpg",
     "static/media/restore.png": "/static/media/restore.f7667a91b602561ba310.png",
     "static/media/tezca.png": "/static/media/tezca.b74d11df965efd935deb.png",
+    "static/media/gamedevphoto1.jpg": "/static/media/gamedevphoto1.6bb7c7cde7a6247650ae.jpg",
+    "static/media/gamedevphoto2.jpg": "/static/media/gamedevphoto2.5f32baaebaee61931012.jpg",
     "static/media/jasmine.png": "/static/media/jasmine.09b12cad1134818da543.png",
     "static/media/ggjphoto1.png": "/static/media/ggjphoto1.cda8f22b69db7a14d9bb.png",
     "static/media/yunseo.jpg": "/static/media/yunseo.7b38c7a7a00c7321e73c.jpg",
@@ -21,7 +22,6 @@
     "static/media/summergame3.png": "/static/media/summergame3.7a543e459daf717327d9.png",
     "static/media/hermes.png": "/static/media/hermes.4aca8c31b52d7ad3c894.png",
     "static/media/aiden.jpg": "/static/media/aiden.dbbd8d7dff1892de5506.jpg",
-    "static/media/gamedevphoto2.jpg": "/static/media/gamedevphoto2.58ba5ae5831279eea17d.jpg",
     "static/media/summergame1.png": "/static/media/summergame1.29fffc211efbb0b2bbd2.png",
     "static/media/summergame4.png": "/static/media/summergame4.dc9998f4bf6304111965.png",
     "static/media/cyber-20s.jpg": "/static/media/cyber-20s.afdb4f3e421edebfd6f8.jpg",
@@ -46,10 +46,10 @@
     "static/media/chevron-up.svg": "/static/media/chevron-up.21ead3be1dbf588b9fb74874b00dd155.svg",
     "static/media/geo-alt-fill.svg": "/static/media/geo-alt-fill.94c6a40d70da7b868b3ef5f3020a41d5.svg",
     "main.b0c3b183.css.map": "/static/css/main.b0c3b183.css.map",
-    "main.9f21cd42.js.map": "/static/js/main.9f21cd42.js.map"
+    "main.330dd6e3.js.map": "/static/js/main.330dd6e3.js.map"
   },
   "entrypoints": [
     "static/css/main.b0c3b183.css",
-    "static/js/main.9f21cd42.js"
+    "static/js/main.330dd6e3.js"
   ]
 }

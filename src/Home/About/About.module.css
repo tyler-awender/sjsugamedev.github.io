@@ -1,0 +1,46 @@
+.description {
+  display: flex;
+  flex-direction: column;
+  font-size: var(--text-3xlarge);
+  line-height: var(--text-3xlarge-line-height);
+  word-spacing: 0.1em;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.emphasize {
+  font-size: var(--text-6xlarge);
+  line-height: var(--text-6xlarge-line-height);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+@keyframes scroll-left {
+  0% {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+
+  100% {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+.scroll-left-1 {
+  animation: scroll-left 15s linear infinite;
+}
+.scroll-left-2 {
+  animation: scroll-left 20s linear infinite;
+}
+.scroll-left-3 {
+  animation: scroll-left 17s linear infinite;
+}
+.scroll-left-4 {
+  animation: scroll-left 22s linear infinite;
+}
+.scroll-left-5 {
+  animation: scroll-left 25s linear infinite;
+}

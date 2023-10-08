@@ -1,0 +1,31 @@
+name: deploy-with-gh-pages
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out Git repo
+      uses: actions/checkout@v2
+
+    - name: Install Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Install npm-merge-driver
+      run: npx npm-merge-driver install --global
+
+    - name: Install dependencies
+      run: npm i
+
+    - name: Deploy to gh-pages
+      run: npm run deploy

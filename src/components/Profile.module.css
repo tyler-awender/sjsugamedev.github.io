@@ -1,0 +1,37 @@
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 14px;
+  width: 300px;
+}
+
+.image {
+  width: 90px;
+  height: 90px;
+  background-color: #eeeeee;
+  border-radius: 45px;
+  object-fit: cover;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.position {
+  text-transform: uppercase;
+  font-size: var(--text-small);
+  }
+
+.first-name {
+  font-size: var(--text-3xlarge);
+  line-height: var(--text-3xlarge-line-height);
+  font-weight: bold;
+}
+
+.last-name {
+  font-size: var(--text-xlarge);
+    font-weight: bold;
+}

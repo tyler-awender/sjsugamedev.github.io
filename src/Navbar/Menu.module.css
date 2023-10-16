@@ -1,0 +1,21 @@
+.menuWrap {
+  display: flex;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 4px;  
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: var(--text-xlarge);
+}
+
+/* Lay out buttons vertically */
+.container {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

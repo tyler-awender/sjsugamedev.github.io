@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 480px;
+  width: 100%;
+  word-spacing: 0.2em;
+  row-gap: 46px;
+}
+
+.emphasis1 {
+  text-transform: uppercase;
+  font-size: var(--text-6xlarge);
+  line-height: var(--text-6xlarge-line-height);
+  font-weight: 600;
+}
+
+.emphasis2 {
+  text-transform: uppercase;
+  font-size: var(--text-2xlarge);
+  line-height: var(--text-2xlarge-line-height);
+  font-weight: 600;
+  color: var(--header-color);
+}
+
+.greetingFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 10px 32px;
+  flex-wrap: wrap-reverse;
+}
+
+.videoBtn {
+  display: flex;
+}

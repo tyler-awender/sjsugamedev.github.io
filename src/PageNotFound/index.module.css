@@ -1,0 +1,6 @@
+.errorCode {
+    font-size: var(--text-8xlarge);
+}
+.errorDesc {
+    font-size: var(--text-2xlarge);
+}

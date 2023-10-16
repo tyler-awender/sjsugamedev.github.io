@@ -1,0 +1,25 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 14px;
+  align-items: center;
+  text-align: center;
+  background-color: var(--default-banner-background-color);
+  box-sizing: border-box;
+  padding: 10px 1em;
+  line-height: 2;
+}
+
+.banner a, 
+.banner a:link, 
+.banner a:active {
+  color: currentColor;
+  text-decoration: none;
+  padding: 0px 10px;
+  border: 1.25px solid currentColor;
+  font-weight: 600;
+  word-spacing: 0.1em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}

@@ -1,0 +1,27 @@
+.card {
+  display: inline-block;
+  background-color: var(--primary-color);
+	width: 235px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.img {
+  width: 100%;
+	height: auto;
+  object-fit: cover;
+}
+
+.text {
+  padding: 14px;
+  color: #ffffff;
+  font-size: var(--text-medium);
+  }
+
+.title {
+  width: 100%;
+  text-transform: uppercase;
+  font-size: var(--text-xlarge);
+    font-weight: 600;
+  word-spacing: 0.2em;
+}

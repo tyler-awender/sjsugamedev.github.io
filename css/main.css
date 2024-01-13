@@ -44,6 +44,7 @@
 }
 
 .container-fluid.intro {
+	height: 500vh;
     background: linear-gradient(to bottom, #191D88, #337CCF);
 }
 

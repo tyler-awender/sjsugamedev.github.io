@@ -45,7 +45,7 @@
 
 .container-fluid.intro {
 	height: 500vh;
-    background: linear-gradient(to bottom, #191D88, #337CCF);
+    background: linear-gradient(180deg, #191D88 0%, rgba(51, 124, 207, 0.62) 76.7%, rgba(51, 124, 207, 0.00) 99.98%, rgba(51, 124, 207, 0.00) 99.99%);
 }
 
 .intro {

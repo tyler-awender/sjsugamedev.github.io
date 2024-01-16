@@ -36,6 +36,8 @@
     border-radius: 15px;
 }
 
+
+
 /*Intro of Index Page*/
 .content_extend {
 	text-align: center;
@@ -43,8 +45,9 @@
 	padding-right: 0px;
 }
 
+/*The blue-white gradient background for the whole home page*/
 .container-fluid.intro {
-	height: 500vh;
+	height: 400vh;
     background: linear-gradient(180deg, #191D88 0%, rgba(51, 124, 207, 0.62) 76.7%, rgba(51, 124, 207, 0.00) 99.98%, rgba(51, 124, 207, 0.00) 99.99%);
 }
 

@@ -21,6 +21,7 @@
     color: #ffffff;
 	text-shadow: 3px 3px 3px#222222;
 	font-size: medium;
+	font-weight: bold;
 }
 
 .navbar-nav>li>a:hover {
@@ -84,7 +85,7 @@ footer>a{
 
 /*The blue-white gradient background for the whole home page*/
 .container-fluid.intro {
-	height: 400vh;
+	height: 350vh;
     background: linear-gradient(180deg, #191D88 0%, rgba(51, 124, 207, 0.62) 76.7%, rgba(51, 124, 207, 0.00) 99.98%, rgba(51, 124, 207, 0.00) 99.99%);
 }
 

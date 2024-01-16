@@ -40,16 +40,23 @@
 	<link
 		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap"
 		rel="stylesheet">
+
+	<!-- Font Awesome CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<div>
+<div id="header">
 	<nav class="navbar">
-		<div class="container-fluid">
+		<div class="container-fluid collapse navbar-collapse">
 			<div>
-			  <a class="navbar-brand" href="index.html">
-				  <img src="img/web-banner_4.png" alt="SJSU Game Dev Club Banner">
-			  </a>
-		  </div>
+				<a style="position:absolute;top: 10px;bottom:10px;left: 5%;" class="navbar-brand" href="index.html">
+					<!-- <img src="img/web-banner_4.png" alt="SJSU Game Dev Club Banner"> -->
+					<span style="font-size: larger;font-weight: bolder;">
+						<img src="logo.png" alt="SJSU Logo">
+						SJSU Game Dev Club
+					</span>
+				</a>
+			</div>
 		  
 		  <div class="collapse navbar-collapse" id="myNavbar">
 			  <ul class="nav navbar-nav navbar-right">
@@ -96,25 +103,25 @@
 
 
 
-<body>
-	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KJL6HSH"
-	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-	<!-- End Google Tag Manager (noscript) -->
+	<body>
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KJL6HSH"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
 
-	<!-- <div class="jumbotron">
-		<div class="container" style="visibility: hidden;">
-			<a href="index.html">
-				<img src="img/web-banner_4.png" class="center-block img-responsive" width="100%" alt="SJSU Game Dev Club Banner">
+		<!-- <div class="jumbotron">
+			<div class="container" style="visibility: hidden;">
+				<a href="index.html">
+					<img src="img/web-banner_4.png" class="center-block img-responsive" width="100%" alt="SJSU Game Dev Club Banner">
+				</a>
+			</div>
+		</div> -->
+
+		<div class="center-block img-responsive" alt="SJSU Game Dev Club Banner">
+			<a>
+				<img src="./img/web_banner_big_bg.png" width="100%">
 			</a>
 		</div>
-	</div> -->
-
-	<div class="center-block img-responsive" alt="SJSU Game Dev Club Banner">
-		<a>
-			<img src="./img/web_banner_big_bg.png" width="100%">
-		</a>
-	</div>
 
 	
 	<div class="container-fluid intro">
@@ -168,102 +175,108 @@
 						</p>	
 					</div>
 
-					<!-- Motto with Image -->
-					<div class="container" style="margin-top: 400px; position: relative; text-align: center;">
-						<!-- Image for Motto -->
-						<img src="img/mascot_bg.png" alt="Motto Image" style="width: 100%; max-width: 1500px; height: auto;">
-						
-						<!-- Image for Bottom Left -->
-						<img src="img/MottoCorner_Home.png" alt="Bottom Left Image" style="position: absolute; bottom: 0; left: 80px; width: 100px; height: auto;">
+						<!-- Motto with Image -->
+						<div class="container" style="margin-top: 400px; position: relative; text-align: center;">
+							<!-- Image for Motto -->
+							<img src="img/mascot_bg.png" alt="Motto Image" style="width: 100%; max-width: 1500px; height: auto;">
+							
+							<!-- Image for Bottom Left -->
+							<img src="img/MottoCorner_Home.png" alt="Bottom Left Image" style="position: absolute; bottom: 0; left: 80px; width: 100px; height: auto;">
 
-						<!-- Image for Top Right -->
-						<img src="img/MottoCorner_Home.png" alt="Top Right Image" style="position: absolute; top: 0; right: 60px; width: 100px; transform: rotate(180deg); height: auto;">
-						
-						<!-- Motto Text with Adjustment -->
-						<div style="position: absolute; top: 50%; left: calc(50% + 35px); transform: translate(-50%, -50%); text-align: center;">
-							<p style="width: 629px; height: 187px; flex-shrink: 0; color: #FFF; text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); font-family: Poppins; font-size: 60px; font-style: normal; font-weight: 600; line-height: normal;">
-								Crafting Dreams, Forging Realities.
+							<!-- Image for Top Right -->
+							<img src="img/MottoCorner_Home.png" alt="Top Right Image" style="position: absolute; top: 0; right: 60px; width: 100px; transform: rotate(180deg); height: auto;">
+							
+							<!-- Motto Text with Adjustment -->
+							<div style="position: absolute; top: 50%; left: calc(50% + 35px); transform: translate(-50%, -50%); text-align: center;">
+								<p style="width: 629px; height: 187px; flex-shrink: 0; color: #FFF; text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); font-family: Poppins; font-size: 60px; font-style: normal; font-weight: 600; line-height: normal;">
+									Crafting Dreams, Forging Realities.
+								</p>
+							</div>
+						</div>
+
+						<!--Video-->
+						<div class="container" style="margin-top: 400px;">
+							<!--Want To Learn More-->
+							<h2 style="text-align: center; color: white; font-size: 60px; font-family: Poppins; font-weight: 600; word-wrap: break-word">
+								<img src="img/Diamond_Home.png" alt="Image description" style="width: 30px; height: 35px; margin-right: 30px; flex-shrink: 0;">
+								Want to learn more?
+								<img src="img/Diamond_Home.png" alt="Image description" style="width: 30px; height: 35px; margin-left: 30px; flex-shrink: 0;">
+							</h2>
+
+							<div class="vid" style="margin-top: 100px;">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/lM32dkAMuLw?si=zdCWILB95X62QA11" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							
+							<p style="margin-left: -20px !important; color: #000; font-family: Poppins; font-size: 20px; font-style: normal; font-weight: 600; line-height: normal;">
+								Want to learn even more? Check out our <a href="about.html" target="_blank" style="color: #000; text-decoration: underline;">About Page</a>.
+							</p>				
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+
+	<!--
+		
+		<div class="container-fluid body">
+
+			<div class="container">
+				<div class="vid">
+
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/lM32dkAMuLw?si=zdCWILB95X62QA11" frameborder="0"allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </ iframe> 
+
+				</div>
+			</div>		
+
+			<div class="container event">
+				<div class="row">
+					<div class="col-sm-6 image-side">
+						<img src="img/featured_event.png" class="center-image">
+					</div>
+
+					<div class="col-sm-6 text-side">
+						<h3>Featured Event</h3>
+						<h2>Pitching and Team forming</h2>
+							<p>
+								Whether you are new to game dev or want to work on something big with other people, we encourage everyone to join a team this semester! During this Thursday's (2/17) meeting at 7:30 PM on Discord, you will hear game pitches from other members of the club. After going through everyone's ideas, you will form teams based on what ideas you like the most and hear more about them in breakout rooms. Make sure you attend!
 							</p>
-						</div>
-					</div>
-
-					<!--Video-->
-					<div class="container" style="margin-top: 400px;">
-						<!--Want To Learn More-->
-						<h2 style="text-align: center; color: white; font-size: 60px; font-family: Poppins; font-weight: 600; word-wrap: break-word">
-							<img src="img/Diamond_Home.png" alt="Image description" style="width: 30px; height: 35px; margin-right: 30px; flex-shrink: 0;">
-							Want to learn more?
-							<img src="img/Diamond_Home.png" alt="Image description" style="width: 30px; height: 35px; margin-left: 30px; flex-shrink: 0;">
-						</h2>
-
-						<div class="vid" style="margin-top: 100px;">
-							<iframe width="560" height="315" src="https://www.youtube.com/embed/lM32dkAMuLw?si=zdCWILB95X62QA11" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-						</div>
-
-						<p style="margin-left: -20px !important; color: #000; font-family: Poppins; font-size: 20px; font-style: normal; font-weight: 600; line-height: normal;">
-							Want to learn even more? Check out our <a href="about.html" target="_blank" style="color: #000; text-decoration: underline;">About Page</a>.
-						</p>				
+							<span>Feb 17th <b>|</b> 7:30pm PST <b>|</b> <a href="https://discord.gg/xGv8qYA" target="_blank">Discord</a> </span>  
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+		
+		<div class="container-fluid end">
+			<p class="end-text"> 
+				<b>Follow us and join our <a href="https://forms.gle/ynPeZtpQC9kmQYyy9" target="_blank">email</a> list!</b>
+			</p>
+			<p class="end-media">
+				Be Sure to Check that all links work 
+				<a href="https://discord.gg/xGv8qYA" target="_blank"><img src="img/platforms/discord.png" width="160"></a>
+				<a href="https://sjsugamedev.itch.io/" target="_blank"><img src="img/platforms/itch.png" width="50"></a>
+				<a href="https://www.twitch.tv/sjsugamedev" target="_blank"><img src="img/platforms/twitch.png" width="50"></a>
+				<a href="https://twitter.com/sjsugamedev" target="_blank"><img src="img/platforms/twitter.png" width="50"></a>
 
-
-
-
-
-
-
-
-
-<!--
-	
-	<div class="container-fluid body">
-
-		<div class="container">
-			<div class="vid">
-
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/lM32dkAMuLw?si=zdCWILB95X62QA11" frameborder="0"allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </ iframe> 
-
-			</div>
-		</div>		
-
-		<div class="container event">
-			<div class="row">
-				<div class="col-sm-6 image-side">
-					<img src="img/featured_event.png" class="center-image">
-				</div>
-
-				<div class="col-sm-6 text-side">
-					<h3>Featured Event</h3>
-					<h2>Pitching and Team forming</h2>
-						<p>
-							Whether you are new to game dev or want to work on something big with other people, we encourage everyone to join a team this semester! During this Thursday's (2/17) meeting at 7:30 PM on Discord, you will hear game pitches from other members of the club. After going through everyone's ideas, you will form teams based on what ideas you like the most and hear more about them in breakout rooms. Make sure you attend!
-						</p>
-						<span>Feb 17th <b>|</b> 7:30pm PST <b>|</b> <a href="https://discord.gg/xGv8qYA" target="_blank">Discord</a> </span>  
-				</div>
-			</div>
+				Least Active Platforms 
+				<a href="https://www.facebook.com/SJSUGameDev/" target="_blank"><img src="img/platforms/facebook.png" width="50"></a>
+				<a href="https://www.linkedin.com/company/sjsugamedev/" target="_blank"><img src="img/platforms/linkedin.png" width="50"></a>
+				<a href="https://www.instagram.com/sjsugamedev/" target="_blank"><img src="img/platforms/instagram.png" width="50"></a>
+			</p>
 		</div>
-	</div>
-	
-	<div class="container-fluid end">
-		<p class="end-text"> 
-			<b>Follow us and join our <a href="https://forms.gle/ynPeZtpQC9kmQYyy9" target="_blank">email</a> list!</b>
-		</p>
-		<p class="end-media">
-			 Be Sure to Check that all links work 
-			<a href="https://discord.gg/xGv8qYA" target="_blank"><img src="img/platforms/discord.png" width="160"></a>
-			<a href="https://sjsugamedev.itch.io/" target="_blank"><img src="img/platforms/itch.png" width="50"></a>
-			<a href="https://www.twitch.tv/sjsugamedev" target="_blank"><img src="img/platforms/twitch.png" width="50"></a>
-			<a href="https://twitter.com/sjsugamedev" target="_blank"><img src="img/platforms/twitter.png" width="50"></a>
+	-->
+	</body>
 
-			Least Active Platforms 
-			<a href="https://www.facebook.com/SJSUGameDev/" target="_blank"><img src="img/platforms/facebook.png" width="50"></a>
-			<a href="https://www.linkedin.com/company/sjsugamedev/" target="_blank"><img src="img/platforms/linkedin.png" width="50"></a>
-			<a href="https://www.instagram.com/sjsugamedev/" target="_blank"><img src="img/platforms/instagram.png" width="50"></a>
-		</p>
-	</div>
--->
-</body>
+	<footer>
+		<a style="padding-left:2%;" href="#header">
+			<!-- <img src="img/web-banner_4.png" alt="SJSU Game Dev Club Banner"> -->
+			<span style="font-size: larger;font-weight: bold;">
+				<img src="logo.png" alt="SJSU Footer Logo">
+				SJSU Game Dev Club
+			</span>
+		</a>
+	
+		<!-- <span style="font-family: FontAwesome;">
+			<i class="fa-3x fa-brands fa-instagram"></i>
+		</span>		 -->
+	</footer>
 </html>

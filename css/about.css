@@ -7,7 +7,7 @@ h1 {
 
 /* Club's Statement */
 h4 {
-  font-size: 16px;
+  font-size: 24px;
   font-family: "Poppins";
   text-align: center;
 }
@@ -55,12 +55,14 @@ html, body {
   padding: 0;
 }
 
-.info-section h4,
-.info-section h2 {
-  margin: 0;
-  padding: 0;
-}
 
+.info-section h4 {
+  padding-top: 112px;
+  padding-left: 161px;
+  padding-right: 160px;
+  margin: 0 auto;
+  text-align: center;
+}
 
 /* Mostly for the banner image background */
 .about-us {

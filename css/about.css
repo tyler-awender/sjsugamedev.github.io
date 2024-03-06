@@ -31,3 +31,14 @@ p {
   font-size: 16px;
   font-family: "Poppins";
 }
+
+/* Gradient background color */
+.info-section {
+  background: linear-gradient(
+    180deg,
+    #003e82 0%,
+    rgba(51, 124, 207, 0.62) 76.7%,
+    rgba(51, 124, 207, 0) 99.98%,
+    rgba(51, 124, 207, 0) 99.99%
+  );
+}

@@ -1,0 +1,33 @@
+/* Abous Us */
+h1 {
+  font-size: 48px;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+/* Club's Statement */
+h4 {
+  font-size: 16px;
+  font-family: "Poppins";
+  text-align: center;
+}
+
+/* What We Provide + Where We Meet */
+h2 {
+  font-size: 20px;
+  font-family: "Poppins";
+  text-align: left;
+}
+
+/* Elevator + Stairs */
+h5 {
+  font-size: 16px;
+  font-family: "Poppins";
+  text-align: left;
+}
+
+/* Paragraph Texts */
+p {
+  font-size: 16px;
+  font-family: "Poppins";
+}

@@ -14,7 +14,7 @@ h4 {
 
 /* What We Provide + Where We Meet */
 h2 {
-  font-size: 20px;
+  font-size: 36px;
   font-family: "Poppins";
   text-align: left;
 }
@@ -64,6 +64,54 @@ html, body {
   text-align: center;
 }
 
+.info-section h2 {
+  padding-top: 113px;
+  padding-left: 187px;
+  padding-right: 946px;
+  margin: 0 auto;
+}
+
+.info-section h2:nth-of-type(2) {
+  padding-top: 95px;
+  padding-left: 704px;
+  padding-right: 449px;
+  text-align: right;
+}
+
+.info-section p {
+  padding-top: 4px;
+  padding-left: 191px;
+  padding-right: 640px;
+  margin: 0 auto;
+}
+
+.info-section p:nth-of-type(2) {
+  padding-top: 4px;
+  padding-left: 792px;
+  padding-right: 179px;
+  margin: 0 auto;
+}
+
+.travel-methods {
+  padding-top: 106px;
+  padding-left: 792px;
+  padding-right: 179px;
+  margin: 0 auto;
+}
+
+.travel-methods-text {
+  padding-top: 4px;
+  padding-left: 815px;
+  padding-right: 179px;
+  margin: 0 auto;
+}
+
+.travel-methods:nth-of-type(2) {
+  padding-top: 30px;
+  padding-left: 792px;
+  padding-right: 179px;
+  margin: 0 auto;
+}
 /* Mostly for the banner image background */
 .about-us {
   background-image: url("../img/web_banner_big_bg.png");

@@ -1,0 +1,28 @@
+p
+{
+  margin-top: 0;
+  margin-bottom: 20;
+  font-family: "Caveat Brush";
+}
+
+.grid
+{
+  display: grid;
+  text-align: left;
+}
+
+.title
+{
+  font-size: 150%;
+  text-align: center;
+}
+
+.body-text
+{
+  text-align: left;
+}
+
+.photo {
+  flex: 1;
+  margin-right: 10px; /* Adjust the spacing between photos */
+}

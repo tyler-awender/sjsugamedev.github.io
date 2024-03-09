@@ -7,10 +7,18 @@
 /* Pull all elements in the body in a div "container" to set their width and balance left and right margin */
 .container {
   width: 1440px;
+  height: 4722px;
   margin: 0 auto;
+  background: linear-gradient(
+    180deg,
+    #003e82 0%,
+    rgba(51, 124, 207, 0.8) 76.7%,
+    rgba(51, 124, 207, 0.6) 99.98%,
+    rgba(51, 124, 207, 0.3) 99.99%
+  );
 }
 
-/* About Us Title */
+/* About Us Title + Banner Background */
 .about-us-title {
   /* About Us Page Title */
   font-size: 47px;
@@ -27,12 +35,30 @@
   height: 410px; /* Height of the banner image*/
 }
 
+/* The Text "About Us" */
 .about-us-title-text {
   padding-top: 250px;
   padding-bottom: 0px;
   font-weight: bold;
 }
 
+/* Club's Statement */
+.club-statement {
+  margin-left: 161px;
+  margin-right: 160px;
+  margin-top: 112px;
+  margin-bottom: 103px;
+}
+
+/* Club's Statement Text */
+.club-statement-text {
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #fff;
+}
+
+/* Make the MLK Images Float Left of Where We Meet */
 .mlk-images {
   float: left;
 }

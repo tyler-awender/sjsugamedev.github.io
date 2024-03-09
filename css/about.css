@@ -106,7 +106,7 @@
 .where-we-meet-text {
   margin-left: 704px;
   margin-right: 201px;
-  margin-bottom: 106px;
+  margin-bottom: 95px;
 
   font-size: 17px;
   font-family: sans-serif;
@@ -116,6 +116,11 @@
   line-height: 25px;
 }
 
+/* Methods to LL */
+.methods-to-ll {
+  margin-bottom: 0px;
+}
+/* Elevator Part */
 .methods-elevator {
   margin-left: 704px;
 
@@ -137,6 +142,31 @@
 
   line-height: 25px;
 }
+
+/* Stairs Part */
+.methods-stairs {
+  margin-left: 704px;
+  margin-top: 20px;
+
+  font-size: 17px;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.methods-stairs-title {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.methods-stairs-list {
+  margin-left: 30px;
+  margin-right: 175px;
+
+  padding-right: 10px;
+
+  line-height: 25px;
+}
+
 /* MLK Library Images Part */
 .mlk-images {
   margin-left: 168px;
@@ -149,7 +179,7 @@
 
 .our-officers {
   margin-left: 160px;
-  margin-top: 820px;
+  margin-top: 730px;
 
   font-size: 50px;
   font-family: sans-serif;

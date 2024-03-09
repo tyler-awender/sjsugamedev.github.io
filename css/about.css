@@ -42,12 +42,12 @@
   font-weight: bold;
 }
 
-/* Club's Statement */
+/* Club's Statement Part*/
 .club-statement {
   margin-left: 161px;
   margin-right: 160px;
   margin-top: 112px;
-  margin-bottom: 103px;
+  margin-bottom: 128px;
 }
 
 /* Club's Statement Text */
@@ -56,6 +56,38 @@
   font-family: sans-serif;
   font-weight: 600;
   color: #fff;
+
+  line-height: 40px;
+}
+
+/* What We Provide Part */
+
+/* What We Provide Title */
+.what-we-provide-title {
+  margin-left: 161px;
+  margin-right: 946px;
+  margin-bottom: 18px;
+
+  font-size: 36px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #fff;
+}
+
+/* What We Provide Title */
+.what-we-provide-text {
+  margin-left: 161px;
+  margin-right: 640px;
+  margin-bottom: 103px;
+
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: #fff;
+
+  width: 639px;
+  height: 118px;
+  line-height: 30px;
 }
 
 /* Make the MLK Images Float Left of Where We Meet */

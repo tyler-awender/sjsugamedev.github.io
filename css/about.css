@@ -7,7 +7,7 @@
 /* Pull all elements in the body in a div "container" to set their width and balance left and right margin */
 .container {
   width: 1440px;
-  height: 4722px;
+  height: 2357px; /* 2030px + 327ox */
   margin: 0 auto;
   background: linear-gradient(
     180deg,
@@ -90,7 +90,12 @@
   line-height: 30px;
 }
 
-/* Make the MLK Images Float Left of Where We Meet */
+/* MLK Library Images Part */
 .mlk-images {
-  float: left;
+  margin-left: 168px;
+  float: left; /* Make the MLK Images Float Left of Where We Meet */
+}
+
+.mlk-images-entrance {
+  margin-bottom: 41px;
 }

@@ -18,7 +18,7 @@
   );
 }
 
-/* About Us Title + Banner Background */
+/* "About Us" Title Part */
 .about-us-title {
   /* About Us Page Title */
   font-size: 47px;
@@ -35,14 +35,14 @@
   height: 410px; /* Height of the banner image*/
 }
 
-/* The Text "About Us" */
+/* "About Us" Title Text */
 .about-us-title-text {
   padding-top: 250px;
   padding-bottom: 0px;
   font-weight: bold;
 }
 
-/* Club's Statement Part*/
+/* Club's Statement Part */
 .club-statement {
   margin-left: 161px;
   margin-right: 160px;
@@ -61,7 +61,6 @@
 }
 
 /* What We Provide Part */
-
 /* What We Provide Title */
 .what-we-provide-title {
   margin-left: 161px;
@@ -74,22 +73,70 @@
   color: #fff;
 }
 
-/* What We Provide Title */
+/* What We Provide Text */
 .what-we-provide-text {
   margin-left: 161px;
   margin-right: 640px;
   margin-bottom: 103px;
 
-  font-size: 18px;
+  font-size: 17px;
   font-family: sans-serif;
   font-weight: 500;
   color: #fff;
 
   width: 639px;
   height: 118px;
-  line-height: 30px;
+  line-height: 25px;
 }
 
+/* Where We Meet Part */
+/* Where We Meet Title */
+.where-we-meet-title {
+  margin-left: 704px;
+  margin-right: 449px;
+  margin-bottom: 13px;
+
+  font-size: 36px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #fff;
+}
+
+/* Where We Meet Text */
+.where-we-meet-text {
+  margin-left: 704px;
+  margin-right: 201px;
+  margin-bottom: 106px;
+
+  font-size: 17px;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: #fff;
+
+  line-height: 25px;
+}
+
+.methods-elevator {
+  margin-left: 704px;
+
+  font-size: 17px;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.methods-elevator-title {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.methods-elevator-list {
+  margin-left: 30px;
+  margin-right: 160px;
+
+  padding-right: 10px;
+
+  line-height: 25px;
+}
 /* MLK Library Images Part */
 .mlk-images {
   margin-left: 168px;
@@ -98,4 +145,14 @@
 
 .mlk-images-entrance {
   margin-bottom: 41px;
+}
+
+.our-officers {
+  margin-left: 160px;
+  margin-top: 820px;
+
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: #fff;
 }

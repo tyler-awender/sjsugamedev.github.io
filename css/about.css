@@ -186,3 +186,10 @@
   font-weight: bolder;
   color: #fff;
 }
+
+.our-officers-section {
+  width: 1440px;
+  height: 2357px; /* 2030px + 327ox */
+  margin: 0 auto;
+  background: #fcdc75;
+}

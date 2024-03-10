@@ -1,11 +1,76 @@
-container 
+/* navbar css  */
+
+*
 {
-  width: 80%;
+  
   margin: 0;
+  padding: 0;
+}
+
+li, a
+{
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-left
+{
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+header
+{
+  background-color: #003E82;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 3%;
 }
 
 .logo
 {
-  width: 50px;
-  height: auto;
+  margin-right: 10px;
+  width: 70px;
+  cursor: pointer;
 }
+
+.sjsu-game-dev
+{
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  font-family: "Poppins";
+}
+
+.nav-links
+{
+  list-style: none;
+  margin-left: auto;
+}
+
+
+.nav-links li
+{
+  display: flex;
+  margin-left: auto;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+/* target nav tags and a tag inside them */
+.nav-links li a
+{
+  transition: all .3s ease 0s;
+}
+
+.nav-links li a:hover
+{
+  color: #face0d;
+}
+
+/* may need to get rid of this: will target all buttons */

@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  background-color: black;
+}
+
 /* Pull all elements in the body in a div "container" to set their width and balance left and right margin */
 .container {
   width: 1440px;
@@ -114,6 +118,31 @@
   color: #fff;
 
   line-height: 25px;
+}
+
+/* Discord Link */
+.where-we-meet-text a:link {
+  color: #feb81a;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.where-we-meet-text a:visited {
+  color: #feb81a;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.where-we-meet-text a:hover {
+  color: black;
+  background-color: #feb81a;
+  font-weight: bolder;
+}
+
+.where-we-meet-text a:active {
+  color: rgb(0, 0, 0);
+  background-color: #feb81a;
+  font-weight: bolder;
 }
 
 /* Methods to LL */

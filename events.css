@@ -1,0 +1,83 @@
+.header {
+  margin: -8px;
+  width: 100vw;
+  height: 430px;
+  background-image: url("facebook_banner_webMobile_002.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 2170px;
+  box-shadow: 0px 3px 7px #043162;
+}
+
+body {
+  background-image: linear-gradient(#003e82, #6381a4);
+  text-align: center;
+  margin-bottom: 900px;
+  font-family: Poppins;
+  color: white;
+  font-weight: bolder;
+}
+
+.calendar {
+  margin: auto;
+  height: 42vw;
+  width: 75vw;
+  background-color: lightgray;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2, p {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+h2 {
+  color: #ffc436;
+  font-size: 35px;
+}
+
+.event-date {
+  color: white;
+}
+
+p {
+  margin-top: -6px;
+  font-size: 23px;
+}
+
+.events {
+  margin: 170px;
+  margin-top: 130px;
+  margin-bottom: 180px;
+}
+
+.controller-left {
+  scale: 1.6;
+  margin-right: 140px;
+}
+
+.controller-right {
+  rotate: y 180deg;
+  scale: 1.6;
+  margin-left: 140px;
+}
+
+.controller-button1 {
+  scale: 0.4;
+  float: left;
+  margin-right: -500px;
+  translate: -211px -60px;
+  rotate: 250deg;
+}
+
+.controller-button2 {
+  scale: 0.6;
+  float: right;
+  margin-left: -500px;
+  translate: 195px 25px;
+  rotate: 120deg;
+}

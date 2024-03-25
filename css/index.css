@@ -32,7 +32,7 @@ header
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 7px 3%;
+  padding: .5rem 1.5rem ;
 }
 
 .logo
@@ -84,12 +84,26 @@ footer
 {
   display: flex;
   text-align: center;
-  padding: 7px 3%;
+  padding: .5rem 1.5rem ;
   background-color: #003E82;
   color: white;
+  /* align = vertical  */
+  align-items: center;
 }
 
-.social-media-links
+.social-media-link
 {
-  marign-right: auto;
+  display: flex;
+  width: 10rem;
+  /* justify images to container because container holds images to apply justify content */
+  justify-content: right;
+  gap: 1rem;
+}
+
+.social-media-link, img
+{
+  /* max-height fits to parent - social media link div whose size is 2rem */
+  /* max height because height forces whole dimension */
+  height: auto;
+  max-width: 100%;
 }

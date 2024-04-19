@@ -1,0 +1,201 @@
+/* navbar css  */
+
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li, a
+{
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-left
+{
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+header
+{
+  background-color: #003E82;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 3%;
+}
+
+.logo
+{
+  margin-right: 10px;
+  width: 70px;
+  cursor: pointer;
+}
+
+.sjsu-game-dev
+{
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  font-family: "Poppins";
+}
+
+.nav-links
+{
+  list-style: none;
+  margin-left: auto;
+}
+
+
+.nav-links li
+{
+  display: flex;
+  margin-left: auto;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+/* target nav tags and a tag inside them */
+.nav-links li a
+{
+  transition: all .3s ease 0s;
+}
+
+.nav-links li a:hover
+{
+  color: #face0d;
+}
+
+/* reset global margins and padding */
+* 
+{ 
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0; 
+}
+
+/* applies to all elements on page */
+body 
+{
+  width: 1440px;
+  height: auto;
+  margin: 0 auto;
+  background: linear-gradient(
+    180deg,
+    #003e82 0%,
+    rgba(51, 124, 207, 0.8) 76.7%,
+    rgba(51, 124, 207, 0.6) 99.98%,
+    rgba(51, 124, 207, 0.3) 99.99%
+    );
+}
+
+/* header image */
+#header_image 
+{
+  background-image: url(../img/web_banner_big_bg.png);
+  background-size: 1400px;
+  background-position: center;
+  width: 100%;
+  height: 410px;
+  box-shadow: 0px 3px 7px #043162;
+}
+
+/* "Events" title and assets */
+.title 
+{
+  font-size: 80px;
+  text-align: center;
+  margin-top: 150px;
+  color: white;
+}
+
+#title_decor_left 
+{
+  width: 130px;
+  margin-bottom: -20px;
+  margin-right: 100px;
+}
+
+#title_decor_right 
+{
+  transform: scaleX(-1);
+  width: 130px;
+  margin-bottom: -20px;
+  margin-left: 100px;
+}
+
+/* General CSS for events */
+.events {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+/* Event name */
+#event_name 
+{
+  font-weight:900;
+  margin-top: 150px;
+  line-height: 100px;
+  font-size: 40px;
+  color: #ffc436;;
+}
+
+/* Event description */
+#event_description 
+{
+  margin-top: 18px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 45px;
+  color: white;
+}
+
+/* Event date */
+#event_date 
+{
+  color: white;
+}
+
+/* Google calendar */
+.calendar 
+{
+  text-align: center;
+  margin-top: 270px;
+  margin-bottom: 800px;
+}
+
+/* footer */
+footer
+{
+  display: flex;
+  text-align: center;
+  padding: .5rem 1.5rem ;
+  background-color: #003E82;
+  color: white;
+  /* align = vertical  */
+  align-items: center;
+}
+
+.social-media-link
+{
+  display: flex;
+  width: 10rem;
+  /* justify images to container because container holds images to apply justify content */
+  justify-content: right;
+  gap: 1rem;
+}
+
+.social-media-link, img
+{
+  /* max-height fits to parent - social media link div whose size is 2rem */
+  /* max height because height forces whole dimension */
+  height: auto;
+  max-width: 100%;
+}

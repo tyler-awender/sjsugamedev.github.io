@@ -1,0 +1,291 @@
+/* Global Reset Margin and Padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+/* Pull all elements in the body in a div "container" to set their width and balance left and right margin */
+.container {
+  width: 1440px;
+  height: 2357px; /* 2030px + 327ox */
+  margin: 0 auto;
+  background: linear-gradient(
+    180deg,
+    #003e82 0%,
+    rgba(51, 124, 207, 0.8) 76.7%,
+    rgba(51, 124, 207, 0.6) 99.98%,
+    rgba(51, 124, 207, 0.3) 99.99%
+  );
+}
+
+/* "About Us" Title Part */
+.about-us-title {
+  /* About Us Page Title */
+  font-size: 47px;
+  font-family: sans-serif;
+  font-weight: 100;
+  text-align: center;
+  color: #fff;
+
+  /* Background Image */
+  background-image: url("../img/web_banner_big_bg.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%; /* Width of the banner image*/
+  height: 410px; /* Height of the banner image*/
+}
+
+/* "About Us" Title Text */
+.about-us-title-text {
+  padding-top: 250px;
+  padding-bottom: 0px;
+  font-weight: bold;
+}
+
+/* Club's Statement Part */
+.club-statement {
+  margin-left: 161px;
+  margin-right: 160px;
+  margin-top: 112px;
+  margin-bottom: 128px;
+}
+
+/* Club's Statement Text */
+.club-statement-text {
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #fff;
+
+  line-height: 40px;
+}
+
+/* What We Provide Part */
+/* What We Provide Title */
+.what-we-provide-title {
+  margin-left: 161px;
+  margin-right: 946px;
+  margin-bottom: 18px;
+
+  font-size: 36px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #fff;
+}
+
+/* What We Provide Text */
+.what-we-provide-text {
+  margin-left: 161px;
+  margin-right: 640px;
+  margin-bottom: 103px;
+
+  font-size: 17px;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: #fff;
+
+  width: 639px;
+  height: 118px;
+  line-height: 25px;
+}
+
+/* Where We Meet Part */
+/* Where We Meet Title */
+.where-we-meet-title {
+  margin-left: 704px;
+  margin-right: 449px;
+  margin-bottom: 13px;
+
+  font-size: 36px;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #fff;
+}
+
+/* Where We Meet Text */
+.where-we-meet-text {
+  margin-left: 704px;
+  margin-right: 201px;
+  margin-bottom: 95px;
+
+  font-size: 17px;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: #fff;
+
+  line-height: 25px;
+}
+
+/* Discord Link */
+.where-we-meet-text a:link {
+  color: #feb81a;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.where-we-meet-text a:visited {
+  color: #feb81a;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.where-we-meet-text a:hover {
+  color: black;
+  background-color: #feb81a;
+  font-weight: bolder;
+}
+
+.where-we-meet-text a:active {
+  color: rgb(0, 0, 0);
+  background-color: #feb81a;
+  font-weight: bolder;
+}
+
+/* Methods to LL */
+.methods-to-ll {
+  margin-bottom: 0px;
+}
+/* Elevator Part */
+.methods-elevator {
+  margin-left: 704px;
+
+  font-size: 17px;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.methods-elevator-title {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.methods-elevator-list {
+  margin-left: 30px;
+  margin-right: 160px;
+
+  padding-right: 10px;
+
+  line-height: 25px;
+}
+
+/* Stairs Part */
+.methods-stairs {
+  margin-left: 704px;
+  margin-top: 20px;
+
+  font-size: 17px;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.methods-stairs-title {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.methods-stairs-list {
+  margin-left: 30px;
+  margin-right: 175px;
+
+  padding-right: 10px;
+
+  line-height: 25px;
+}
+
+/* MLK Library Images Part */
+.mlk-images {
+  margin-left: 168px;
+  float: left; /* Make the MLK Images Float Left of Where We Meet */
+}
+
+.mlk-images-entrance {
+  margin-bottom: 41px;
+}
+
+.our-officers {
+  margin-left: 160px;
+  margin-top: 730px;
+
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.our-officers-section {
+  width: 1440px;
+  height: 2357px; /* 2030px + 327ox */
+  margin: 0 auto;
+  background: #feb81a;
+}
+
+/* navbar css  */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li,
+a {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+header {
+  background-color: #003e82;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 3%;
+}
+
+.logo {
+  margin-right: 10px;
+  width: 70px;
+  cursor: pointer;
+}
+
+.sjsu-game-dev {
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+  font-family: "Poppins";
+}
+
+.nav-links {
+  list-style: none;
+  margin-left: auto;
+}
+
+.nav-links li {
+  display: flex;
+  margin-left: auto;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+/* target nav tags and a tag inside them */
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+  color: #face0d;
+}
+
+/* may need to get rid of this: will target all buttons */
